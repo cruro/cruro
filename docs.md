@@ -4,7 +4,7 @@ This project is a new fork of [bitcoin core 0.18.0](https://bitcoincore.org/) to
 
 ## Starting with Cruro 💰
 
-On first for create a new fork of bitcoin we will [follow this guide](https://bitcointalk.org/index.php?topic=5134256.0) to make a good and solid fork of bitcoin core;
+On first for create a new fork of bitcoin we will 📝 [follow this guide](https://bitcointalk.org/index.php?topic=5134256.0) 📝 to make a good and solid fork of bitcoin core;
 
 Other good resources found around the web for a good fork (but outdated) are:
 
