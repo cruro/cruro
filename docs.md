@@ -1,8 +1,8 @@
 # Cruro coin under dev documentation
 
-This project is a new fork of [bitcoin core 0.18.0](https://bitcoincore.org/) to make a new cryptocurrency made for br a deflactive asset, for run in europe and gain some founds from states.
+This project is a new fork of [bitcoin core 0.18.0](https://bitcoincore.org/) to make a new cryptocurrency made for br a deflactive asset, for run in 🇪🇺europe🇪🇺 and gain some founds from states.
 
-## Starting with Cruro
+## Starting with Cruro 💰
 
 On first for create a new fork of bitcoin we will [follow this guide](https://bitcointalk.org/index.php?topic=5134256.0) to make a good and solid fork of bitcoin core;
 
@@ -20,10 +20,10 @@ Other good resources found around the web for a good fork (but outdated) are:
 
 # Tools used for create it (Thanks a lot! All open source resources)
 
-- [Ubuntu 19.04](http://releases.ubuntu.com/19.04/) for the dev machine (amazing open source OS)
-- [Snapcraft](https://snapcraft.io/) for the snaps that can be integrated with Ubuntu
-- [Github](https://github.com/) for the core and [Github Pages](https://pages.github.com/) for the free service of the website
-- [Jekyll](https://jekyllrb.com/) and [Jorigamy](https://jorigamy.githu.io) for the website
-- [Atom editor](https://atom.io/) for writing and edit the code, the plugins, and the quick commit to github features
-- The [Notepad++ editor](https://snapcraft.io/notepad-plus-plus) compatible with linux thanks to Snapcraft
-- The [Bitcoin core](https://bitcoincore.org/)
+- 💻[Ubuntu 19.04](http://releases.ubuntu.com/19.04/) for the dev machine (amazing open source OS)
+- 🗂[Snapcraft](https://snapcraft.io/) for the snaps that can be integrated with Ubuntu
+- 📊[Github](https://github.com/) for the core and [Github Pages](https://pages.github.com/) for the free service of the website
+- 📰[Jekyll](https://jekyllrb.com/) and [Jorigamy](https://jorigamy.githu.io) for the website
+- ⌨[Atom editor](https://atom.io/) for writing and edit the code, the plugins, and the quick commit to github features
+- ⌨The [Notepad++ editor](https://snapcraft.io/notepad-plus-plus) compatible with linux thanks to Snapcraft
+- 💸The [Bitcoin core](https://bitcoincore.org/)
