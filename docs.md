@@ -18,7 +18,8 @@ Other good resources found around the web for a good fork (but outdated) are:
 - [x] Create a [cruro website](https://cruro.github.io/) for presentation of the idea into [github/cruro/cruro.github.io](https://github.com/cruro/cruro.github.io)
 - [ ] Edit all the [cruro repository](https://github.com/cruro/cruro) with the modification in all files of the project the name associated to bitcoin ('bitcoin' with 'cruro', 'BTC' with 'CRC', 'satoshi' with 'crury'); how? with the notepad++ app that make possible to find and replace a string in all files of a directory and subdirs
 
-# Tools used for create it (Thanks a lot! All open source resources)
+# Tools used for create it
+## 😎 (Thanks a lot! All open source resources) 😎
 
 - [x] 💻 [Ubuntu 19.04](http://releases.ubuntu.com/19.04/) for the dev machine (amazing open source OS)
 - [x] 🗂 [Snapcraft](https://snapcraft.io/) for the snaps that can be integrated with Ubuntu
