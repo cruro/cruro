@@ -75,7 +75,7 @@ Other good resources found around the web for a good fork (but outdated) are:
             consensus.BIP65Height = 1; // BIP65 activated on regtest (Used in functional tests)
             consensus.BIP66Height = 1; // BIP66 activated on regtest (Used in functional tests)
       ```      
-- [x] Add certificates into **chainparams.cpp** from shell:
+- [x] Add certificates into **chainparams.cpp** from **shell or Terminal**:
     - ``` openssl ecparam -genkey -name secp256k1 -text -noout -outform DER | xxd -p -c 1000 | sed 's/41534e31204f49443a20736563703235366b310a30740201010420/PrivKey: /' | sed 's/a00706052b8104000aa144034200/\'$'\nPubKey: /' ```
 
     - ``` PrivKey: b9a2d7286baa26d17af41153bd43ad7ad9d33944078c926f157535890f6f2b29 ```
