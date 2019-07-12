@@ -1,12 +1,12 @@
-Bitcoin Core integration/staging tree
+Cruro Core integration/staging tree
 =====================================
 
 https://bitcoincore.org
 
-What is Bitcoin?
+What is Cruro?
 ----------------
 
-Bitcoin is an experimental digital currency that enables instant payments to
+Cruro is an experimental digital currency that enables instant payments to
 anyone, anywhere in the world. Cruro uses peer-to-peer technology to operate
 with no central authority: managing transactions and issuing money are carried
 out collectively by the network. Cruro Core is the name of open source
@@ -19,7 +19,7 @@ the Cruro Core software, see https://bitcoincore.org/en/download/, or read the
 License
 -------
 
-Bitcoin Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
+Cruro Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
 information or see https://opensource.org/licenses/MIT.
 
 Development Process
@@ -72,4 +72,4 @@ Translations are periodically pulled from Transifex and merged into the git repo
 **Important**: We do not accept translation changes as GitHub pull requests because the next
 pull from Transifex would automatically overwrite them again.
 
-Translators should also subscribe to the [mailing list](https://groups.google.com/forum/#!forum/bitcoin-translators).
+Translators should also subscribe to the [mailing list](https://groups.google.com/forum/#!forum/Cruro-translators).
