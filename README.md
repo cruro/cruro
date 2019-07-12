@@ -1,7 +1,7 @@
 Cruro Core integration/staging tree
 =====================================
 
-https://bitcoincore.org
+https://cruro.github.io
 
 What is Cruro?
 ----------------
