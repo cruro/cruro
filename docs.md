@@ -53,9 +53,9 @@ Other good resources found around the web for a good fork (but outdated) are:
             nDefaultPort = 18464;
       ```
     - For two times in the file:
-    - consensus.nMinimumChainWork = uint256S("0x0000000000000000000000000000000000000000000000000000000100010001");
+    - ```consensus.nMinimumChainWork = uint256S("0x0000000000000000000000000000000000000000000000000000000100010001");```
 
-    - consensus.nMinimumChainWork = uint256S("0x0000000000000000000000000000000000000000000000000000000100010001");
+    - ```consensus.nMinimumChainWork = uint256S("0x0000000000000000000000000000000000000000000000000000000100010001");```
     - For 3 times:
     - ```      
             consensus.BIP34Height = 1;
