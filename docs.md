@@ -18,14 +18,14 @@
             pchMessageStart[2] = 0xa6;
             pchMessageStart[3] = 0xf8;
             nDefaultPort = 18383;
-      ```      
-    - ```      
+      ```
+    - ```
             pchMessageStart[0] = 0xcd;
             pchMessageStart[1] = 0xfe;
             pchMessageStart[2] = 0xaf;
             pchMessageStart[3] = 0x93;
             nDefaultPort = 18464;
-      ```      
+      ```
     - For two times in the file:
     - ```
     consensus.nMinimumChainWork = uint256S("0x0000000000000000000000000000000000000000000000000000000100010001");
