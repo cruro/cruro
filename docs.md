@@ -28,6 +28,8 @@
       ```
     - For two times in the file:
     - ```
+    ```
+    - ```
     consensus.nMinimumChainWork = uint256S("0x0000000000000000000000000000000000000000000000000000000100010001");
     ```
     - ```
