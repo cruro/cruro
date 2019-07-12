@@ -2,7 +2,7 @@
 
 - [x] Make a new fork into [github/cruro/cruro](https://github.com/cruro/cruro) repository
 - [x] Create a [cruro website](https://cruro.github.io/) for presentation of the idea into [github/cruro/cruro.github.io](https://github.com/cruro/cruro.github.io)
-- [ ] Edit all the [cruro repository](https://github.com/cruro/cruro) with the modification in all files of the project the name associated to Cruro ('bitcoin' with 'cruro', 'BTC' with 'CRC', 'satoshi' with 'crury'); how? with the notepad++ app that make possible to find and replace a string in all files of a directory and subdirs
+- [x] Edit all the [cruro repository](https://github.com/cruro/cruro) with the modification in all files of the project the name associated to Cruro ('bitcoin' with 'cruro', 'BTC' with 'CRC', 'satoshi' with 'crury'); how? with the notepad++ app that make possible to find and replace a string in all files of a directory and subdirs
 
 # Cruro coin 💲 under dev 💻 documentation
 
