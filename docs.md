@@ -82,7 +82,7 @@ Other good resources found around the web for a good fork (but outdated) are:
 
     - ``` PubKey: 04d64e7b6f7dedb29eb7d7d84fc88e1d40d0478dd6b6b6f0eeabd6c3aa7a978bb5d112ddbc30508a972299aa6c53d2606d6a6410d42e170ee563338e7b50c7bdf2 ```
 
-Now into **chainoarams.cpp**:
+- Now into **chainoarams.cpp** paste the PrivKey:
 
   - ```
     onst char* pszTimestamp = "The Times 13/May/2019 Ready to make a new deflactive coin";
