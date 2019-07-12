@@ -85,7 +85,7 @@ Other good resources found around the web for a good fork (but outdated) are:
 - Now into **chainoarams.cpp** paste the PrivKey, and edit the sentence about Coin creation (max 150 characters) into **genesisOutputScript**:
 
   - ```cpp
-    onst char* pszTimestamp = "The Times 13/May/2019 Ready to make a new deflactive coin";
+    const char* pszTimestamp = "The Times 13/May/2019 Ready to make a new deflactive coin";
     const CScript genesisOutputScript = CScript() << ParseHex("04d64e7b6f7dedb29eb7d7d84fc88e1d40d0478dd6b6b6f0eeabd6c3aa7a978bb5d112ddbc30508a972299aa6c53d2606d6a6410d42e170ee563338e7b50c7bdf2") << OP_CHECKSIG;
     ```
 
