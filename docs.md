@@ -78,16 +78,16 @@ Other good resources found around the web for a good fork (but outdated) are:
 - [x] Add certificates into **chainparams.cpp**:
     - ```
       openssl ecparam -genkey -name secp256k1 -text -noout -outform DER | xxd -p -c 1000 | sed 's/41534e31204f49443a20736563703235366b310a30740201010420/PrivKey: /' | sed 's/a00706052b8104000aa144034200/\'$'\nPubKey: /'
-```
+    ```
 
-- ```
-PrivKey: b9a2d7286baa26d17af41153bd43ad7ad9d33944078c926f157535890f6f2b29
-```
+    - ```
+    PrivKey: b9a2d7286baa26d17af41153bd43ad7ad9d33944078c926f157535890f6f2b29
+    ```
 
-- ```
-PubKey: 04d64e7b6f7dedb29eb7d7d84fc88e1d40d0478dd6b6b6f0eeabd6c3aa7a978bb5d112ddbc30508a972299aa6c53d2606d6a6410d42e170ee563338e7b50c7bdf2
+    - ```
+    PubKey: 04d64e7b6f7dedb29eb7d7d84fc88e1d40d0478dd6b6b6f0eeabd6c3aa7a978bb5d112ddbc30508a972299aa6c53d2606d6a6410d42e170ee563338e7b50c7bdf2
 
-```
+    ```
 
 - [ ] **Customize validation.cpp**
 Mostly validation deals with subsidy and validity checks. Subsidy defines how many coins are created when the proof of work submitted by a miner is accepted. This is the reward formula. This is where you will do your premine.
