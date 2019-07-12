@@ -84,8 +84,10 @@ Other good resources found around the web for a good fork (but outdated) are:
 
 Now into **chainoarams.cpp**:
 
-- ``` const char* pszTimestamp = "The Times 13/May/2019 Ready to make a new deflactive coin";
-const CScript genesisOutputScript = CScript() << ParseHex("04d64e7b6f7dedb29eb7d7d84fc88e1d40d0478dd6b6b6f0eeabd6c3aa7a978bb5d112ddbc30508a972299aa6c53d2606d6a6410d42e170ee563338e7b50c7bdf2") << OP_CHECKSIG; ```
+  - ```
+    onst char* pszTimestamp = "The Times 13/May/2019 Ready to make a new deflactive coin";
+    const CScript genesisOutputScript = CScript() << ParseHex("04d64e7b6f7dedb29eb7d7d84fc88e1d40d0478dd6b6b6f0eeabd6c3aa7a978bb5d112ddbc30508a972299aa6c53d2606d6a6410d42e170ee563338e7b50c7bdf2") << OP_CHECKSIG;
+    ```
 
 - [ ] **Customize validation.cpp**
 Mostly validation deals with subsidy and validity checks. Subsidy defines how many coins are created when the proof of work submitted by a miner is accepted. This is the reward formula. This is where you will do your premine.
