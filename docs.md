@@ -27,7 +27,7 @@ Other good resources found around the web for a good fork (but outdated) are:
 # To do list for Cruro 💸
 
 - [x] Make a new fork into [github/cruro/cruro](https://github.com/cruro/cruro) repository
-- [x] Create a [cruro website](https://cruro.github.io/) for presentation of the idea into [github/cruro/cruro.github.io](https://github.com/cruro/cruro.github.io)
+- [x] Create a [cruro website](https://cruro.github.io/) for presentation of the idea into [github/cruro/cruro.github.io](https://github.com/cruro/cruro.github.io) **Deployed but under construction** 
 - [x] Edit all the [cruro repository](https://github.com/cruro/cruro) with the modification in all files of the project the name associated to Cruro ('bitcoin' with 'cruro', 'BTC' with 'CRC', 'satoshi' with 'crury'); how? with the notepad++ app that make possible to find and replace a string in all files of a directory and subdirs
 - [x] In chainparams.cpp let's edit the ports, the pchMessageStart, the Consensus chainwork and the bip consensus to any network, main, testnet and regnet :
     - For 3 times in the file:
