@@ -31,21 +31,21 @@ Other good resources found around the web for a good fork (but outdated) are:
 - [x] Edit all the [cruro repository](https://github.com/cruro/cruro) with the modification in all files of the project the name associated to Cruro ('bitcoin' with 'cruro', 'BTC' with 'CRC', 'satoshi' with 'crury'); how? with the notepad++ app that make possible to find and replace a string in all files of a directory and subdirs
 - [x] In **chainparams.cpp** let's edit the ports, the pchMessageStart, the Consensus chainwork and the bip consensus to any network, main, testnet and regnet :
     - For 3 times in the file:
-    - ```
+    - ```cpp
             pchMessageStart[0] = 0xbf;
             pchMessageStart[1] = 0xd9;
             pchMessageStart[2] = 0xa0;
             pchMessageStart[3] = 0x9c;
             nDefaultPort = 8383;
       ```      
-    - ```
+    - ```cpp
             pchMessageStart[0] = 0xac;
             pchMessageStart[1] = 0xc5;
             pchMessageStart[2] = 0xa6;
             pchMessageStart[3] = 0xf8;
             nDefaultPort = 18383;
       ```
-    - ```
+    - ```cpp
             pchMessageStart[0] = 0xcd;
             pchMessageStart[1] = 0xfe;
             pchMessageStart[2] = 0xaf;
@@ -57,19 +57,19 @@ Other good resources found around the web for a good fork (but outdated) are:
 
     - ```consensus.nMinimumChainWork = uint256S("0x0000000000000000000000000000000000000000000000000000000100010001");```
     - For 3 times:
-    - ```      
+    - ```cpp      
             consensus.BIP34Height = 1;
             consensus.BIP34Hash = uint256S("0x000000000000024b89b42a942fe0d9fea3bb44ab7bd1b19115dd6a759c0808b8");
             consensus.BIP65Height = 1; // 000000000000000004c2b624ed5d7756c508d90fd0da2c7c679febfa6c4735f0
             consensus.BIP66Height = 1; // 00000000000000000379eaa19dce8c9b722d46ae6a57c2f1a988119488b50931
       ```      
-    - ```
+    - ```cpp
             consensus.BIP34Height = 1;
             consensus.BIP34Hash = uint256S("0x0000000023b3a96d3484e5abb3755c413e7d41500f8e2a5c3f0dd01299cd8ef8");
             consensus.BIP65Height = 1; // 00000000007f6655f22f98e72ed80d8b06dc761d5da09df0fa1dc4be4f861eb6
             consensus.BIP66Height = 1; // 000000002104c8c45e99a8853285a3b592602a3ccde2b832481da85e9e4ba182
       ```      
-    - ```
+    - ```cpp
             consensus.BIP34Height = 1; // BIP34 activated on regtest (Used in functional tests)
             consensus.BIP34Hash = uint256();
             consensus.BIP65Height = 1; // BIP65 activated on regtest (Used in functional tests)
