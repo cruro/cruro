@@ -2,7 +2,7 @@
 
 - [x] Make a new fork into [github/cruro/cruro](https://github.com/cruro/cruro) repository
 - [x] Create a [cruro website](https://cruro.github.io/) for presentation of the idea into [github/cruro/cruro.github.io](https://github.com/cruro/cruro.github.io)
-- [ ] Edit all the [cruro repository](https://github.com/cruro/cruro) with the modification in all files of the project the name associated to bitcoin ('bitcoin' with 'cruro', 'BTC' with 'CRC', 'satoshi' with 'crury'); how? with the notepad++ app that make possible to find and replace a string in all files of a directory and subdirs
+- [ ] Edit all the [cruro repository](https://github.com/cruro/cruro) with the modification in all files of the project the name associated to Cruro ('bitcoin' with 'cruro', 'BTC' with 'CRC', 'satoshi' with 'crury'); how? with the notepad++ app that make possible to find and replace a string in all files of a directory and subdirs
 
 # Cruro coin 💲 under dev 💻 documentation
 
@@ -10,7 +10,7 @@ This project is a new fork of [bitcoin core 0.18.0](https://bitcoincore.org/) to
 
 ## Starting with Cruro 💰
 
-On first for create a new fork of bitcoin we will 📝 [follow this guide](https://bitcointalk.org/index.php?topic=5134256.0) 📝 to make a good and solid fork of bitcoin core;
+On first for create a new fork of Cruro we will 📝 [follow this guide](https://bitcointalk.org/index.php?topic=5134256.0) 📝 to make a good and solid fork of Cruro core;
 
 Other good resources found around the web for a good fork (but outdated) are:
 

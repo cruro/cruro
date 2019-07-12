@@ -66,12 +66,12 @@
         <translation>Adresy odbioru</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Tutaj znajdują się adresy Bitcoin na które wysyłasz płatności. Zawsze sprawdzaj ilość i adres odbiorcy przed wysyłką monet.</translation>
+        <source>These are your Cruro addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Tutaj znajdują się adresy Cruro na które wysyłasz płatności. Zawsze sprawdzaj ilość i adres odbiorcy przed wysyłką monet.</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>To są twoje adresy Bitcoin do odbierania płatności. Zaleca się używanie nowych adresów odbiorczych dla każdej transakcji.</translation>
+        <source>These are your Cruro addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>To są twoje adresy Cruro do odbierania płatności. Zaleca się używanie nowych adresów odbiorczych dla każdej transakcji.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -358,7 +358,7 @@
         <translation>Proxy jest &lt;b&gt;włączone&lt;/b&gt;: %1</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
+        <source>Send coins to a Cruro address</source>
         <translation>Wyślij monety na adres bitcoinowy</translation>
     </message>
     <message>
@@ -410,11 +410,11 @@
         <translation>Szyfruj klucze prywatne, które są w twoim portfelu</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
+        <source>Sign messages with your Cruro addresses to prove you own them</source>
         <translation>Podpisz wiadomości swoim adresem aby udowodnić jego posiadanie</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
+        <source>Verify messages to ensure they were signed with specified Cruro addresses</source>
         <translation>Zweryfikuj wiadomość,  aby upewnić się, że została podpisana podanym adresem bitcoinowym.</translation>
     </message>
     <message>
@@ -454,7 +454,7 @@
         <translation>&amp;Opcje linii komend</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network</source>
+        <source>%n active connection(s) to Cruro network</source>
         <translation><numerusform>%n aktywnych połączeń do sieci Bitcoin</numerusform><numerusform>%n aktywnych połączeń do sieci Bitcoin</numerusform><numerusform>%n aktywnych połączeń do sieci Bitcoin</numerusform><numerusform>%n aktywnych połączeń do sieci Bitcoin</numerusform></translation>
     </message>
     <message>
@@ -498,7 +498,7 @@
         <translation>Aktualny</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
+        <source>Show the %1 help message to get a list with possible Cruro command-line options</source>
         <translation>Pokaż pomoc %1 aby zobaczyć listę wszystkich opcji lnii poleceń.</translation>
     </message>
     <message>
@@ -574,8 +574,8 @@
         <translation>Portfel jest &lt;b&gt;zaszyfrowany&lt;/b&gt; i obecnie &lt;b&gt;zablokowany&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Bitcoin can no longer continue safely and will quit.</source>
-        <translation>Wystąpił krytyczny błąd. Bitcoin nie jest w stanie kontynuować bezpiecznie i zostanie zamknięty.</translation>
+        <source>A fatal error occurred. Cruro can no longer continue safely and will quit.</source>
+        <translation>Wystąpił krytyczny błąd. Cruro nie jest w stanie kontynuować bezpiecznie i zostanie zamknięty.</translation>
     </message>
 </context>
 <context>
@@ -714,7 +714,7 @@
     </message>
     <message>
         <source>Can vary +/- %1 satoshi(s) per input.</source>
-        <translation>Waha się +/- %1 satoshi na wejście.</translation>
+        <translation>Waha się +/- %1 crury na wejście.</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -764,7 +764,7 @@
         <translation>Zmień adres wysyłania</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
+        <source>The entered address "%1" is not a valid Cruro address.</source>
         <translation>Wprowadzony adres "%1" nie jest prawidłowym adresem Bitcoin.</translation>
     </message>
     <message>
@@ -873,7 +873,7 @@
         <translation>Około %1 GB danych zostanie zapisane w tym katalogu.</translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Bitcoin block chain.</source>
+        <source>%1 will download and store a copy of the Cruro block chain.</source>
         <translation>%1 pobierze i zapisze lokalnie kopię łańcucha bloków Bitcoin.</translation>
     </message>
     <message>
@@ -904,7 +904,7 @@
         <translation>Formularz</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the bitcoin network, as detailed below.</source>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the Cruro network, as detailed below.</source>
         <translation>Świeże transakcje mogą nie być jeszcze widoczne, a zatem saldo portfela może być nieprawidłowe. Te detale będą poprawne, gdy portfel zakończy synchronizację z siecią bitcoin, zgodnie z poniższym opisem.</translation>
     </message>
     <message>
@@ -1094,8 +1094,8 @@
         <translation>Wydaj niepotwierdzoną re&amp;sztę</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatycznie otwiera port klienta Bitcoin na routerze. Ta opcja dzieła tylko jeśli twój router wspiera UPnP i jest ono włączone.</translation>
+        <source>Automatically open the Cruro client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatycznie otwiera port klienta Cruro na routerze. Ta opcja dzieła tylko jeśli twój router wspiera UPnP i jest ono włączone.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1110,8 +1110,8 @@
         <translation>Zezwól na &amp;połączenia przychodzące</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
-        <translation>Połącz się z siecią Bitcoin poprzez proxy SOCKS5.</translation>
+        <source>Connect to the Cruro network through a SOCKS5 proxy.</source>
+        <translation>Połącz się z siecią Cruro poprzez proxy SOCKS5.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1146,8 +1146,8 @@
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Połącz się z siecią Bitcoin przy pomocy oddzielnego SOCKS5 proxy dla sieci TOR</translation>
+        <source>Connect to the Cruro network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <translation>Połącz się z siecią Cruro przy pomocy oddzielnego SOCKS5 proxy dla sieci TOR</translation>
     </message>
     <message>
         <source>&amp;Window</source>
@@ -1253,7 +1253,7 @@
         <translation>Formularz</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Cruro network after a connection is established, but this process has not completed yet.</source>
         <translation>Wyświetlana informacja może być nieaktualna. Twój portfel synchronizuje się automatycznie z siecią bitcoin, zaraz po tym jak uzyskano połączenie, ale proces ten nie został jeszcze ukończony.</translation>
     </message>
     <message>
@@ -1348,8 +1348,8 @@
         <translation>błędny adres płatności %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
-        <translation>Nie można przeanalizować identyfikatora URI! Może to być spowodowane nieważnym adresem Bitcoin lub nieprawidłowymi parametrami URI.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Cruro address or malformed URI parameters.</source>
+        <translation>Nie można przeanalizować identyfikatora URI! Może to być spowodowane nieważnym adresem Cruro lub nieprawidłowymi parametrami URI.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1450,7 +1450,7 @@
         <translation>Kwota</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
+        <source>Enter a Cruro address (e.g. %1)</source>
         <translation>Wprowadź adres bitcoinowy (np. %1)</translation>
     </message>
     <message>
@@ -1898,7 +1898,7 @@
         <translation>&amp;Wiadomość:</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Cruro network.</source>
         <translation>Opcjonalna wiadomość do dołączenia do żądania płatności, która będzie wyświetlana, gdy żądanie zostanie otwarte. Uwaga: wiadomość ta nie zostanie wysłana wraz z płatnością w sieci Bitcoin.</translation>
     </message>
     <message>
@@ -2138,10 +2138,10 @@ Korzystanie z opłaty domyślnej może skutkować wysłaniem transakcji, która 
     <message>
         <source>Specify a custom fee per kB (1,000 bytes) of the transaction's virtual size.
 
-Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis per kB" for a transaction size of 500 bytes (half of 1 kB) would ultimately yield a fee of only 50 satoshis.</source>
+Note:  Since the fee is calculated on a per-byte basis, a fee of "100 cruries per kB" for a transaction size of 500 bytes (half of 1 kB) would ultimately yield a fee of only 50 satoshis.</source>
         <translation>Określ niestandardową opłatę za kB (1000 bajtów) wirtualnego rozmiaru transakcji.
 
-Uwaga: Ponieważ opłata jest naliczana za każdy bajt, opłata "100 satoshi za kB" w przypadku transakcji o wielkości 500 bajtów (połowa 1 kB) ostatecznie da opłatę w wysokości tylko 50 satoshi.</translation>
+Uwaga: Ponieważ opłata jest naliczana za każdy bajt, opłata "100 crury za kB" w przypadku transakcji o wielkości 500 bajtów (połowa 1 kB) ostatecznie da opłatę w wysokości tylko 50 satoshi.</translation>
     </message>
     <message>
         <source>per kilobyte</source>
@@ -2152,7 +2152,7 @@ Uwaga: Ponieważ opłata jest naliczana za każdy bajt, opłata "100 satoshi za 
         <translation>Ukryj</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for bitcoin transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for Cruro transactions than the network can process.</source>
         <translation>Zapłacenie tylko minimalnej opłaty jest nadal wystarczające, dopóki jest mniejszy wolumen transakcji niż miejsca w blokach. Należy jednak mieć świadomość, że może skończyć się to niezatwierdzeniem nigdy transakcji, gdy jest większe zapotrzebowanie na transakcje bitcoina niż sieć może przetworzyć.</translation>
     </message>
     <message>
@@ -2332,7 +2332,7 @@ Uwaga: Ponieważ opłata jest naliczana za każdy bajt, opłata "100 satoshi za 
         <translation><numerusform>Przybliżony czas rozpoczęcia zatwierdzenia: %n blok.</numerusform><numerusform>Przybliżony czas rozpoczęcia zatwierdzenia: %n bloki.</numerusform><numerusform>Przybliżony czas rozpoczęcia zatwierdzenia: %n bloków.</numerusform><numerusform>Przybliżony czas rozpoczęcia zatwierdzenia: %n bloków.</numerusform></translation>
     </message>
     <message>
-        <source>Warning: Invalid Bitcoin address</source>
+        <source>Warning: Invalid Cruro address</source>
         <translation>Ostrzeżenie: nieprawidłowy adres Bitcoin</translation>
     </message>
     <message>
@@ -2375,8 +2375,8 @@ Uwaga: Ponieważ opłata jest naliczana za każdy bajt, opłata "100 satoshi za 
         <translation>To jest standardowa płatność</translation>
     </message>
     <message>
-        <source>The Bitcoin address to send the payment to</source>
-        <translation>Adres Bitcoin gdzie wysłać płatność</translation>
+        <source>The Cruro address to send the payment to</source>
+        <translation>Adres Cruro gdzie wysłać płatność</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2423,7 +2423,7 @@ Uwaga: Ponieważ opłata jest naliczana za każdy bajt, opłata "100 satoshi za 
         <translation>Wprowadź etykietę dla tego adresu by dodać go do listy użytych adresów</translation>
     </message>
     <message>
-        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
+        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Cruro network.</source>
         <translation>Wiadomość, która została dołączona do URI bitcoin:, która będzie przechowywana wraz z transakcją w celach informacyjnych. Uwaga: Ta wiadomość nie będzie rozsyłana w sieci Bitcoin.</translation>
     </message>
     <message>
@@ -2472,7 +2472,7 @@ Uwaga: Ponieważ opłata jest naliczana za każdy bajt, opłata "100 satoshi za 
         <translation>Możesz podpisywać wiadomości swoimi adresami aby udowodnić, że jesteś ich właścicielem. Uważaj, aby nie podpisywać niczego co wzbudza Twoje podejrzenia, ponieważ ktoś może stosować phishing próbując nakłonić Cię do ich podpisania. Akceptuj i podpisuj tylko w pełni zrozumiałe komunikaty i wiadomości.</translation>
     </message>
     <message>
-        <source>The Bitcoin address to sign the message with</source>
+        <source>The Cruro address to sign the message with</source>
         <translation>Adres Bitcoin, za pomocą którego podpisać wiadomość</translation>
     </message>
     <message>
@@ -2504,7 +2504,7 @@ Uwaga: Ponieważ opłata jest naliczana za każdy bajt, opłata "100 satoshi za 
         <translation>Kopiuje aktualny podpis do schowka systemowego</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
+        <source>Sign the message to prove you own this Cruro address</source>
         <translation>Podpisz wiadomość aby dowieść, że ten adres jest twój</translation>
     </message>
     <message>
@@ -2529,11 +2529,11 @@ Uwaga: Ponieważ opłata jest naliczana za każdy bajt, opłata "100 satoshi za 
 Zwróć uwagę, że poprawnie zweryfikowana wiadomość potwierdza to, że nadawca posiada klucz do adresu, natomiast nie potwierdza to, że poprawne wysłanie jakiejkolwiek transakcji! </translation>
     </message>
     <message>
-        <source>The Bitcoin address the message was signed with</source>
+        <source>The Cruro address the message was signed with</source>
         <translation>Adres Bitcoin, którym została podpisana wiadomość</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
+        <source>Verify the message to ensure it was signed with the specified Cruro address</source>
         <translation>Zweryfikuj wiadomość,  aby upewnić się, że została podpisana odpowiednim adresem Bitcoin.</translation>
     </message>
     <message>

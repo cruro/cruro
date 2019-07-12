@@ -8,7 +8,7 @@ This directory contains the following sets of tests:
 - [functional](/test/functional) which test the functionality of
 bitcoind and bitcoin-qt by interacting with them through the RPC and P2P
 interfaces.
-- [util](/test/util) which tests the bitcoin utilities, currently only
+- [util](/test/util) which tests the Cruro utilities, currently only
 bitcoin-tx.
 - [lint](/test/lint/) which perform various static analysis checks.
 
@@ -17,7 +17,7 @@ tests and lint scripts can be run as explained in the sections below.
 
 # Running tests locally
 
-Before tests can be run locally, Bitcoin Core must be built.  See the [building instructions](/doc#building) for help.
+Before tests can be run locally, Cruro Core must be built.  See the [building instructions](/doc#building) for help.
 
 
 ### Functional tests

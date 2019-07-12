@@ -65,7 +65,7 @@ Notable changes
 Network fork safety enhancements
 --------------------------------
 
-A number of changes to the way Bitcoin Core deals with peer connections and invalid blocks
+A number of changes to the way Cruro Core deals with peer connections and invalid blocks
 have been made, as a safety precaution against blockchain forks and misbehaving peers.
 
 - Unrequested blocks with less work than the minimum-chain-work are now no longer processed even

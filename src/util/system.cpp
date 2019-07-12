@@ -1,5 +1,5 @@
-// Copyright (c) 2009-2010 Satoshi Nakamoto
-// Copyright (c) 2009-2019 The Bitcoin Core developers
+// Copyright (c) 2009-2010 crury Nakamoto
+// Copyright (c) 2009-2019 The Cruro Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -1187,9 +1187,9 @@ std::string CopyrightHolders(const std::string& strPrefix)
     const auto copyright_devs = strprintf(_(COPYRIGHT_HOLDERS), COPYRIGHT_HOLDERS_SUBSTITUTION);
     std::string strCopyrightHolders = strPrefix + copyright_devs;
 
-    // Make sure Bitcoin Core copyright is not removed by accident
+    // Make sure Cruro Core copyright is not removed by accident
     if (copyright_devs.find("Bitcoin Core") == std::string::npos) {
-        strCopyrightHolders += "\n" + strPrefix + "The Bitcoin Core developers";
+        strCopyrightHolders += "\n" + strPrefix + "The Cruro Core developers";
     }
     return strCopyrightHolders;
 }

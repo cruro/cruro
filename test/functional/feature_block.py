@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Copyright (c) 2015-2019 The Bitcoin Core developers
+# Copyright (c) 2015-2019 The Cruro Core developers
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 """Test block processing."""
@@ -461,7 +461,7 @@ class FullBlockTest(BitcoinTestFramework):
         redeem_script_hash = hash160(redeem_script)
         p2sh_script = CScript([OP_HASH160, redeem_script_hash, OP_EQUAL])
 
-        # Create a transaction that spends one satoshi to the p2sh_script, the rest to OP_TRUE
+        # Create a transaction that spends one crury to the p2sh_script, the rest to OP_TRUE
         # This must be signed because it is spending a coinbase
         spend = out[11]
         tx = self.create_tx(spend, 0, 1, p2sh_script)
@@ -471,7 +471,7 @@ class FullBlockTest(BitcoinTestFramework):
         b39 = self.update_block(39, [tx])
         b39_outputs += 1
 
-        # Until block is full, add tx's with 1 satoshi to p2sh_script, the rest to OP_TRUE
+        # Until block is full, add tx's with 1 crury to p2sh_script, the rest to OP_TRUE
         tx_new = None
         tx_last = tx
         total_size = len(b39.serialize())
@@ -926,10 +926,10 @@ class FullBlockTest(BitcoinTestFramework):
         #                                                                                    \-> b68 (20)
         #
         # b68 - coinbase with an extra 10 satoshis,
-        #       creates a tx that has 9 satoshis from out[20] go to fees
-        #       this fails because the coinbase is trying to claim 1 satoshi too much in fees
+        #       creates a tx that has 9 cruries from out[20] go to fees
+        #       this fails because the coinbase is trying to claim 1 crury too much in fees
         #
-        # b69 - coinbase with extra 10 satoshis, and a tx that gives a 10 satoshi fee
+        # b69 - coinbase with extra 10 satoshis, and a tx that gives a 10 crury fee
         #       this succeeds
         #
         self.log.info("Reject a block trying to claim too much subsidy in the coinbase transaction")
@@ -1084,7 +1084,7 @@ class FullBlockTest(BitcoinTestFramework):
         #
         #    The tx'es must be unsigned and pass the node's mempool policy.  It is unsigned for the
         #    rather obscure reason that the Python signature code does not distinguish between
-        #    Low-S and High-S values (whereas the bitcoin code has custom code which does so);
+        #    Low-S and High-S values (whereas the Cruro code has custom code which does so);
         #    as a result of which, the odds are 50% that the python code will use the right
         #    value and the transaction will be accepted into the mempool. Until we modify the
         #    test framework to support low-S signing, we are out of luck.
@@ -1293,7 +1293,7 @@ class FullBlockTest(BitcoinTestFramework):
         if spend is None:
             block = create_block(base_block_hash, coinbase, block_time, version=version)
         else:
-            coinbase.vout[0].nValue += spend.vout[0].nValue - 1  # all but one satoshi to fees
+            coinbase.vout[0].nValue += spend.vout[0].nValue - 1  # all but one crury to fees
             coinbase.rehash()
             block = create_block(base_block_hash, coinbase, block_time, version=version)
             tx = self.create_tx(spend, 0, 1, script)  # spend 1 satoshi

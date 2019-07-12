@@ -66,12 +66,12 @@
         <translation>受取用アドレス</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>これらは、あなたが知っている支払い送り先の Bitcoin アドレスです。コインを送る前に、必ず金額と送金先アドレスを確認してください。</translation>
+        <source>These are your Cruro addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>これらは、あなたが知っている支払い送り先の Cruro アドレスです。コインを送る前に、必ず金額と送金先アドレスを確認してください。</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>これらは支払いを受け取るための、あなたの Bitcoin アドレスです。トランザクションごとに新しい受け取り用アドレスを作成することが推奨されます。</translation>
+        <source>These are your Cruro addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>これらは支払いを受け取るための、あなたの Cruro アドレスです。トランザクションごとに新しい受け取り用アドレスを作成することが推奨されます。</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -177,7 +177,7 @@
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation>警告: もしもあなたのウォレットを暗号化してパスフレーズを忘れてしまったら、&lt;b&gt;あなたの Bitcoin はすべて失われます&lt;/b&gt;!</translation>
+        <translation>警告: もしもあなたのウォレットを暗号化してパスフレーズを忘れてしまったら、&lt;b&gt;あなたの Cruro はすべて失われます&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -189,7 +189,7 @@
     </message>
     <message>
         <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation>暗号化処理を完了させるため %1 をいますぐ終了します。ウォレットを暗号化しても、コンピュータに感染したマルウェアなどによる Bitcoin の盗難を完全に防ぐことはできないことにご注意ください。</translation>
+        <translation>暗号化処理を完了させるため %1 をいますぐ終了します。ウォレットを暗号化しても、コンピュータに感染したマルウェアなどによる Cruro の盗難を完全に防ぐことはできないことにご注意ください。</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -358,7 +358,7 @@
         <translation>プロキシは &lt;b&gt;有効&lt;/b&gt;です: %1</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
+        <source>Send coins to a Cruro address</source>
         <translation>Bitcoin アドレスにコインを送る</translation>
     </message>
     <message>
@@ -410,12 +410,12 @@
         <translation>あなたのウォレットの秘密鍵を暗号化します</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
+        <source>Sign messages with your Cruro addresses to prove you own them</source>
         <translation>Bitcoin アドレスをあなたが所有していることを証明するために、そのアドレスでメッセージに署名してください</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>指定された Bitcoin アドレスで署名されたことを確認するために、メッセージを検証してください</translation>
+        <source>Verify messages to ensure they were signed with specified Cruro addresses</source>
+        <translation>指定された Cruro アドレスで署名されたことを確認するために、メッセージを検証してください</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -454,7 +454,7 @@
         <translation>コマンドラインオプション (&amp;C)</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network</source>
+        <source>%n active connection(s) to Cruro network</source>
         <translation><numerusform>Bitcoin ネットワークへのアクティブな接続は %n 個</numerusform></translation>
     </message>
     <message>
@@ -498,8 +498,8 @@
         <translation>バージョンは最新です</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
-        <translation>有効な Bitcoin のコマンドライン オプションを見るために %1 のヘルプメッセージを表示します。</translation>
+        <source>Show the %1 help message to get a list with possible Cruro command-line options</source>
+        <translation>有効な Cruro のコマンドライン オプションを見るために %1 のヘルプメッセージを表示します。</translation>
     </message>
     <message>
         <source>%1 client</source>
@@ -574,7 +574,7 @@
         <translation>ウォレットは&lt;b&gt;暗号化されて、ロックされています&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Bitcoin can no longer continue safely and will quit.</source>
+        <source>A fatal error occurred. Cruro can no longer continue safely and will quit.</source>
         <translation>致命的なエラーが発生しました。Bitcoin を安全に動作し続けることができないため終了します。</translation>
     </message>
 </context>
@@ -714,7 +714,7 @@
     </message>
     <message>
         <source>Can vary +/- %1 satoshi(s) per input.</source>
-        <translation>ひとつの入力につき %1 satoshi 前後ずれることがあります。</translation>
+        <translation>ひとつの入力につき %1 crury 前後ずれることがあります。</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -764,8 +764,8 @@
         <translation>送金用アドレスを編集</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
-        <translation>入力されたアドレス "%1" は無効な Bitcoin アドレスです。</translation>
+        <source>The entered address "%1" is not a valid Cruro address.</source>
+        <translation>入力されたアドレス "%1" は無効な Cruro アドレスです。</translation>
     </message>
     <message>
         <source>Address "%1" already exists as a receiving address with label "%2" and so cannot be added as a sending address.</source>
@@ -873,7 +873,7 @@
         <translation>おおむね%1GBのデータがこのディレクトリに保存されます。</translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Bitcoin block chain.</source>
+        <source>%1 will download and store a copy of the Cruro block chain.</source>
         <translation>%1はBitcoinのブロックチェーンの複製をダウンロードし保存します。</translation>
     </message>
     <message>
@@ -904,12 +904,12 @@
         <translation>フォーム</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the bitcoin network, as detailed below.</source>
-        <translation>最近のトランザクションがまだ表示されていない可能性があります。そのため、ウォレットの残高が正しく表示されていないかもしれません。この情報は、ウォレットが Bitcoin ネットワークへの同期が完了すると正確なものとなります。詳細は下記を参照してください。</translation>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the Cruro network, as detailed below.</source>
+        <translation>最近のトランザクションがまだ表示されていない可能性があります。そのため、ウォレットの残高が正しく表示されていないかもしれません。この情報は、ウォレットが Cruro ネットワークへの同期が完了すると正確なものとなります。詳細は下記を参照してください。</translation>
     </message>
     <message>
         <source>Attempting to spend bitcoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation>まだ表示されていないトランザクションが影響する Bitcoin を使用しようとすると、ネットワークから認証を受けられません。</translation>
+        <translation>まだ表示されていないトランザクションが影響する Cruro を使用しようとすると、ネットワークから認証を受けられません。</translation>
     </message>
     <message>
         <source>Number of blocks left</source>
@@ -1094,8 +1094,8 @@
         <translation>未検証のおつりを使用する (&amp;S)</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>自動的にルーター上の Bitcoin クライアントのポートを開きます。あなたのルーターが UPnP に対応していて、それが有効になっている場合に作動します。</translation>
+        <source>Automatically open the Cruro client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>自動的にルーター上の Cruro クライアントのポートを開きます。あなたのルーターが UPnP に対応していて、それが有効になっている場合に作動します。</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1110,7 +1110,7 @@
         <translation>外部からの接続を許可する (&amp;G)</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
+        <source>Connect to the Cruro network through a SOCKS5 proxy.</source>
         <translation>SOCKS5 プロキシ経由でBitcoinネットワークに接続する</translation>
     </message>
     <message>
@@ -1146,7 +1146,7 @@
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <source>Connect to the Cruro network through a separate SOCKS5 proxy for Tor hidden services.</source>
         <translation>Tor秘匿サービスを利用するため、独立なSOCKS5プロキシ経由でBitcoinネットワークに接続する</translation>
     </message>
     <message>
@@ -1253,8 +1253,8 @@
         <translation>フォーム</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>表示された情報は古いかもしれません。接続が確立されると、あなたのウォレットは Bitcoin ネットワークと自動的に同期しますが、このプロセスはまだ完了していません。</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Cruro network after a connection is established, but this process has not completed yet.</source>
+        <translation>表示された情報は古いかもしれません。接続が確立されると、あなたのウォレットは Cruro ネットワークと自動的に同期しますが、このプロセスはまだ完了していません。</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1348,8 +1348,8 @@
         <translation>支払いのアドレス「%1」は無効です</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
-        <translation>URI を解析できません! これは無効な Bitcoin アドレスあるいは不正な形式の URI パラメーターによって引き起こされる場合があります。</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Cruro address or malformed URI parameters.</source>
+        <translation>URI を解析できません! これは無効な Cruro アドレスあるいは不正な形式の URI パラメーターによって引き起こされる場合があります。</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1450,7 +1450,7 @@
         <translation>総額</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
+        <source>Enter a Cruro address (e.g. %1)</source>
         <translation>Bitcoinアドレスを入力してください (例 %1)</translation>
     </message>
     <message>
@@ -1898,7 +1898,7 @@
         <translation>メッセージ (&amp;M):</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Cruro network.</source>
         <translation>支払リクエストが開始された時に表示される、支払リクエストに添える任意のメッセージです。注意：メッセージはBitcoinネットワークを通じて、支払と共に送られるわけではありません。</translation>
     </message>
     <message>
@@ -2137,7 +2137,7 @@
     <message>
         <source>Specify a custom fee per kB (1,000 bytes) of the transaction's virtual size.
 
-Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis per kB" for a transaction size of 500 bytes (half of 1 kB) would ultimately yield a fee of only 50 satoshis.</source>
+Note:  Since the fee is calculated on a per-byte basis, a fee of "100 cruries per kB" for a transaction size of 500 bytes (half of 1 kB) would ultimately yield a fee of only 50 satoshis.</source>
         <translation>トランザクションの仮想サイズの kB (1,000 バイト) あたりのカスタム手数料を指定します。
 
 注:  手数料はバイト単位で計算されるので、500 バイト (1 kBの半分) のトランザクションサイズに対する "kB あたり 100 satoshi" の手数料は、最終的にわずか 50 satoshiとなります。</translation>
@@ -2151,7 +2151,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>隠す</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for bitcoin transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for Cruro transactions than the network can process.</source>
         <translation>ブロックの容量に比べてトランザクション流量が少ないうちは最小手数料のみの支払で十分です。しかしながらネットワークが処理しきれないほどbitcoinトランザクションの需要がひとたび生まれてしまった場合には、永遠に検証がされないトランザクションになってしまう可能性があることに注意してください。</translation>
     </message>
     <message>
@@ -2331,7 +2331,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation><numerusform>%n ブロック以内に検証が開始されると予想されます。</numerusform></translation>
     </message>
     <message>
-        <source>Warning: Invalid Bitcoin address</source>
+        <source>Warning: Invalid Cruro address</source>
         <translation>警告：無効なBitcoinアドレスです</translation>
     </message>
     <message>
@@ -2374,7 +2374,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>これは通常の支払です。</translation>
     </message>
     <message>
-        <source>The Bitcoin address to send the payment to</source>
+        <source>The Cruro address to send the payment to</source>
         <translation>支払の送金先Bitcoinアドレス</translation>
     </message>
     <message>
@@ -2422,7 +2422,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>このアドレスに対するラベルを入力することで、使用済みアドレスの一覧に追加することができます</translation>
     </message>
     <message>
-        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
+        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Cruro network.</source>
         <translation>bitcoin: URIに添付されていたメッセージです。これは参照用としてトランザクションとともに保存されます。注意：このメッセージはBitcoinネットワークを通して送信されるわけではありません。</translation>
     </message>
     <message>
@@ -2471,7 +2471,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>あなたの所有しているアドレスによりメッセージや合意書に署名をすることで、それらアドレスに対して送られたビットコインを受け取ることができることを証明できます。フィッシング攻撃により不正にあなたの識別情報を署名させられてしまうことを防ぐために、不明確なものやランダムなものに対して署名しないよう注意してください。あなたが同意した、よく詳細の記された文言にのみ署名するようにしてください。</translation>
     </message>
     <message>
-        <source>The Bitcoin address to sign the message with</source>
+        <source>The Cruro address to sign the message with</source>
         <translation>メッセージを署名するBitcoinアドレス</translation>
     </message>
     <message>
@@ -2503,8 +2503,8 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>現在の署名をシステムのクリップボードにコピーする</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation>この Bitcoin アドレスを所有していることを証明するためにメッセージに署名</translation>
+        <source>Sign the message to prove you own this Cruro address</source>
+        <translation>この Cruro アドレスを所有していることを証明するためにメッセージに署名</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2527,12 +2527,12 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
         <translation>受取人のアドレスとメッセージ（改行やスペース、タブなども完全に一致するよう注意してください）および署名を以下に入力し、メッセージの署名を検証してください。中間者攻撃により騙されるのを防ぐため、署名対象のメッセージに書かれていること以上の意味を署名から読み取ろうとしないよう注意してください。これは署名作成者がこのアドレスで受け取ったことを証明するだけであり、トランザクションの送信権限を証明するものではないことに注意してください！</translation>
     </message>
     <message>
-        <source>The Bitcoin address the message was signed with</source>
+        <source>The Cruro address the message was signed with</source>
         <translation>メッセージの署名に使われたBitcoinアドレス</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation>指定された Bitcoin アドレスで署名されたことを保証するメッセージを検証</translation>
+        <source>Verify the message to ensure it was signed with the specified Cruro address</source>
+        <translation>指定された Cruro アドレスで署名されたことを保証するメッセージを検証</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>

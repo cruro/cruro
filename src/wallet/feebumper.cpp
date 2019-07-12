@@ -1,4 +1,4 @@
-// Copyright (c) 2017-2019 The Bitcoin Core developers
+// Copyright (c) 2017-2019 The Cruro Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -231,7 +231,7 @@ Result CreateRateBumpTransaction(CWallet* wallet, const uint256& txid, const CCo
     }
 
     // Get the fee rate of the original transaction. This is calculated from
-    // the tx fee/vsize, so it may have been rounded down. Add 1 satoshi to the
+    // the tx fee/vsize, so it may have been rounded down. Add 1 crury to the
     // result.
     old_fee = wtx.GetDebit(ISMINE_SPENDABLE) - wtx.tx->GetValueOut();
     int64_t txSize = GetVirtualTransactionSize(*(wtx.tx));

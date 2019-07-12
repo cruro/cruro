@@ -184,10 +184,10 @@ Here are the changes to RPC methods:
 | `listtransactions`     | The `account` named parameter has been renamed to `dummy`. If provided, the `dummy` parameter must be set to the string `*`, unless running with the `-deprecatedrpc=accounts` argument (in which case functionality is unchanged). |
 | `getbalance`           | `account`, `minconf` and `include_watchonly` parameters are deprecated, and can only be used if running with '-deprecatedrpc=accounts' |
 
-BIP 174 Partially Signed Bitcoin Transactions support
+BIP 174 Partially Signed Cruro Transactions support
 -----------------------------------------------------
 
-[BIP 174 PSBT](https://github.com/bitcoin/bips/blob/master/bip-0174.mediawiki) is an interchange format for Bitcoin transactions that are not fully signed
+[BIP 174 PSBT](https://github.com/bitcoin/bips/blob/master/bip-0174.mediawiki) is an interchange format for Cruro transactions that are not fully signed
 yet, together with relevant metadata to help entities work towards signing it.
 It is intended to simplify workflows where multiple parties need to cooperate to
 produce a transaction. Examples include hardware wallets, multisig setups, and
@@ -195,7 +195,7 @@ produce a transaction. Examples include hardware wallets, multisig setups, and
 
 ### Overall workflow
 
-Overall, the construction of a fully signed Bitcoin transaction goes through the
+Overall, the construction of a fully signed Cruro transaction goes through the
 following steps:
 
 - A **Creator** proposes a particular transaction to be created. He constructs
@@ -210,7 +210,7 @@ following steps:
   partial signature for the inputs for which they have relevant key(s).
 - A **Finalizer** is run for each input to convert the partial signatures and
   possibly script information into a final `scriptSig` and/or `scriptWitness`.
-- An **Extractor** produces a valid Bitcoin transaction (in network format)
+- An **Extractor** produces a valid Cruro transaction (in network format)
   from a PSBT for which all inputs are finalized.
 
 Generally, each of the above (excluding Creator and Extractor) will simply
@@ -256,7 +256,7 @@ hardware implementations will typically implement multiple roles simultaneously.
 Upgrading non-HD wallets to HD wallets
 --------------------------------------
 
-Since Bitcoin Core 0.13.0, creating new BIP 32 Hierarchical Deterministic wallets has been supported by Bitcoin Core but old non-HD wallets could not be upgraded to HD. Now non-HD wallets can be upgraded to HD using the `-upgradewallet` command line option. This upgrade will result in the all keys in the keypool being marked as used and a new keypool generated. **A new backup must be made when this upgrade is performed.**
+Since Cruro Core 0.13.0, creating new BIP 32 Hierarchical Deterministic wallets has been supported by Cruro Core but old non-HD wallets could not be upgraded to HD. Now non-HD wallets can be upgraded to HD using the `-upgradewallet` command line option. This upgrade will result in the all keys in the keypool being marked as used and a new keypool generated. **A new backup must be made when this upgrade is performed.**
 
 Additionally, `-upgradewallet` can be used to upgraded from a non-split HD chain (all keys generated with `m/0'/0'/i'`) to a split HD chain (receiving keys generated with `'m/0'/0'/i'` and change keys generated with `m'/0'/1'/i'`). When this upgrade occurs, all keys already in the keypool will remain in the keypool to be used until all keys from before the upgrade are exhausted. This is to avoid issues with backups and downgrades when some keys may come from the change key keypool. Users can begin using the new split HD chain keypools by using the `newkeypool` RPC to mark all keys in the keypool as used and begin using a new keypool generated from the split HD chain.
 
@@ -290,9 +290,9 @@ Low-level RPC changes
    `fee`, `modifiedfee`, `ancestorfee` and `descendantfee`.
 - The new RPC `getzmqnotifications` returns information about active ZMQ
   notifications.
-- When bitcoin is not started with any `-wallet=<path>` options, the name of
+- When Cruro is not started with any `-wallet=<path>` options, the name of
   the default wallet returned by `getwalletinfo` and `listwallets` RPCs is
-  now the empty string `""` instead of `"wallet.dat"`. If bitcoin is started
+  now the empty string `""` instead of `"wallet.dat"`. If Cruro is started
   with any `-wallet=<path>` options, there is no change in behavior, and the
   name of any wallet is just its `<path>` string.
 - Passing an empty string (`""`) as the `address_type` parameter to
@@ -536,7 +536,7 @@ Support for Python 2 has been discontinued for all test files and tools.
 - #11200 `5f2a399` Allow for aborting rescans in the GUI (achow101)
 - #12791 `3a8a4dc` Expose a transaction's weight via RPC (TheBlueMatt)
 - #12436 `6e67754` Adds a functional test to validate the transaction version number in the RPC output (251Labs)
-- #12240 `6f8b345` Introduced a new `fees` structure that aggregates all sub-field fee types denominated in BTC (mryandao)
+- #12240 `6f8b345` Introduced a new `fees` structure that aggregates all sub-field fee types denominated in CRC (mryandao)
 - #12321 `eac067a` p2wsh and p2sh-p2wsh address in decodescript (fivepiece)
 - #13090 `17266a1` Remove Safe mode (achow101, laanwj)
 - #12639 `7eb7076` Reduce `cs_main` lock in listunspent (promag)
@@ -578,7 +578,7 @@ Support for Python 2 has been discontinued for all test files and tools.
 - #12928 `ef006d9` Initialize non-static class members that were previously neither initialized where defined nor in constructor (practicalswift)
 - #13158 `81c533c` Improve sendcoinsdialog readability (marcoagner)
 - #11491 `40c34a0` Add proxy icon in statusbar (mess110)
-- #13264 `2a7c53b` Satoshi unit (GreatSock)
+- #13264 `2a7c53b` crury unit (GreatSock)
 - #13097 `e545503` Support wallets loaded dynamically (promag)
 - #13284 `f8be434` fix visual "overflow" of amount input (brandonrninefive)
 - #13275 `a315b79` use `[default wallet]` as name for wallet with no name (jonasschnelli)
@@ -840,7 +840,7 @@ Support for Python 2 has been discontinued for all test files and tools.
 - #13228 `d792e47` Add script to detect circular dependencies between source modules (sipa)
 - #13320 `e08c130` Ensure gitian-build.sh uses bash (jhfrontz)
 - #13301 `e4082d5` lint: Add linter to error on `#include <*.cpp>` (Empact)
-- #13374 `56f6936` utils and libraries: checking for bitcoin address in translations (kaplanmaxe)
+- #13374 `56f6936` utils and libraries: checking for Cruro address in translations (kaplanmaxe)
 - #13230 `7c32b41` Simplify include analysis by enforcing the developer guide's include syntax (practicalswift)
 - #13450 `32bf4c6` Add linter: Enforce the source code file naming convention described in the developer notes (practicalswift)
 - #13479 `fa2ea37` contrib: Fix cve-2018-12356 by hardening the regex (loganaden)

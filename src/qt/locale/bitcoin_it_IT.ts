@@ -66,12 +66,12 @@
         <translation>Indirizzi riceventi</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Questi sono i suoi indirizzi Bitcoin per ricevere i pagamenti. Controlla sempre l'importo e gli indirizzi prima di inviare i coins.</translation>
+        <source>These are your Cruro addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Questi sono i suoi indirizzi Cruro per ricevere i pagamenti. Controlla sempre l'importo e gli indirizzi prima di inviare i coins.</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Questi sono i tuoi indirizzi Bitcoin per ricevere i pagamenti. Si raccomanda di usare un nuovo indirizzo per ogni transazione.</translation>
+        <source>These are your Cruro addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Questi sono i tuoi indirizzi Cruro per ricevere i pagamenti. Si raccomanda di usare un nuovo indirizzo per ogni transazione.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -185,7 +185,7 @@
     </message>
     <message>
         <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation>%1 ora si chiuderà per concludere il processo di criptaggio. Ricorda che criptare il tuo portafoglio non può definitivamente proteggere i tuoi bitcoin da furti tramite malware che infetta il tuo computer.</translation>
+        <translation>%1 ora si chiuderà per concludere il processo di criptaggio. Ricorda che criptare il tuo portafoglio non può definitivamente proteggere i tuoi Cruro da furti tramite malware che infetta il tuo computer.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -350,7 +350,7 @@
         <translation>Reindicizzazione dei blocchi sul disco...</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
+        <source>Send coins to a Cruro address</source>
         <translation>Invia monete ad un indirizzo Bitcoin...</translation>
     </message>
     <message>
@@ -402,12 +402,12 @@
         <translation>Cripta le chiavi private che appartengono al tuo portafoglio</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>Firma messaggi con i tuoi indirizzi Bitcoin per provare che li possiedi</translation>
+        <source>Sign messages with your Cruro addresses to prove you own them</source>
+        <translation>Firma messaggi con i tuoi indirizzi Cruro per provare che li possiedi</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Verifica messaggi per accertarti che siano firmati dagli indirizzi Bitcoin specificati</translation>
+        <source>Verify messages to ensure they were signed with specified Cruro addresses</source>
+        <translation>Verifica messaggi per accertarti che siano firmati dagli indirizzi Cruro specificati</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -482,7 +482,7 @@
         <translation>Aggiornato</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
+        <source>Show the %1 help message to get a list with possible Cruro command-line options</source>
         <translation>Mostra il %1 messaggio d'aiuto per ottenere una lista con le possibili opzioni per la riga di comando di Bitcoin</translation>
     </message>
     <message>
@@ -524,8 +524,8 @@
         <translation>Transazione in arrivo</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Bitcoin can no longer continue safely and will quit.</source>
-        <translation>Si è verificato un errore fatale. Bitcoin non può continuare in maniera sicura e sarà chiuso.</translation>
+        <source>A fatal error occurred. Cruro can no longer continue safely and will quit.</source>
+        <translation>Si è verificato un errore fatale. Cruro non può continuare in maniera sicura e sarà chiuso.</translation>
     </message>
 </context>
 <context>
@@ -698,8 +698,8 @@
         <translation>Modifica l'indirizzo di invio</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
-        <translation>L'indirizzo inserito "%1" non è un indirizzo Bitcoin valido.</translation>
+        <source>The entered address "%1" is not a valid Cruro address.</source>
+        <translation>L'indirizzo inserito "%1" non è un indirizzo Cruro valido.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -770,12 +770,12 @@
 <context>
     <name>ModalOverlay</name>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the bitcoin network, as detailed below.</source>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the Cruro network, as detailed below.</source>
         <translation>Le transazioni recenti potrebbero non essere ancora visibili, e quindi il saldo del wallet potrebbe essere incorretto. Questa informazione verra' corretta non appena il tuo wallet ha finito di sincronizzarsi con la rete bitcoin, come specificato di seguito.</translation>
     </message>
     <message>
         <source>Attempting to spend bitcoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation>Tentare di spendere bitcoin che sono affetti da transazioni non ancora mostrate, non verra' accettato dal network.</translation>
+        <translation>Tentare di spendere Cruro che sono affetti da transazioni non ancora mostrate, non verra' accettato dal network.</translation>
     </message>
     <message>
         <source>Number of blocks left</source>

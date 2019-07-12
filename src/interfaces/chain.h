@@ -1,4 +1,4 @@
-// Copyright (c) 2018-2019 The Bitcoin Core developers
+// Copyright (c) 2018-2019 The Cruro Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -35,7 +35,7 @@ class Wallet;
 //! estimate fees, and submit transactions.
 //!
 //! TODO: Current chain methods are too low level, exposing too much of the
-//! internal workings of the bitcoin node, and not being very convenient to use.
+//! internal workings of the Cruro node, and not being very convenient to use.
 //! Chain methods should be cleaned up and simplified over time. Examples:
 //!
 //! * The Chain::lock() method, which lets clients delay chain tip updates

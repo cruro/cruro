@@ -1,4 +1,4 @@
-// Copyright (c) 2011-2019 The Bitcoin Core developers
+// Copyright (c) 2011-2019 The Cruro Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -124,7 +124,7 @@ static void TestPackageSelection(const CChainParams& chainparams, const CScript&
 
     // This tx has a high fee, but depends on the first transaction
     tx.vin[0].prevout.hash = hashParentTx;
-    tx.vout[0].nValue = 5000000000LL - 1000 - 50000; // 50k satoshi fee
+    tx.vout[0].nValue = 5000000000LL - 1000 - 50000; // 50k crury fee
     uint256 hashHighFeeTx = tx.GetHash();
     mempool.addUnchecked(entry.Fee(50000).Time(GetTime()).SpendsCoinbase(false).FromTx(tx));
 
@@ -194,7 +194,7 @@ static void TestPackageSelection(const CChainParams& chainparams, const CScript&
     // This tx will be mineable, and should cause hashLowFeeTx2 to be selected
     // as well.
     tx.vin[0].prevout.n = 1;
-    tx.vout[0].nValue = 100000000 - 10000; // 10k satoshi fee
+    tx.vout[0].nValue = 100000000 - 10000; // 10k crury fee
     mempool.addUnchecked(entry.Fee(10000).FromTx(tx));
     pblocktemplate = AssemblerForTest(chainparams).CreateNewBlock(scriptPubKey);
     BOOST_CHECK(pblocktemplate->block.vtx[8]->GetHash() == hashLowFeeTx2);

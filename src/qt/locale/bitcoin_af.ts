@@ -62,11 +62,11 @@
         <translation>Ontvanger adresse</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Hierdie is die adresse vanwaar u Bitcoin betalings stuur. U moet altyd die bedrag en die adres van die ontvanger nagaan voordat u enige munte stuur.</translation>
+        <source>These are your Cruro addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Hierdie is die adresse vanwaar u Cruro betalings stuur. U moet altyd die bedrag en die adres van die ontvanger nagaan voordat u enige munte stuur.</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your Cruro addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>Hierdie is die adresse waar u Bitcoins sal ontvang. Ons beveel aan dat u 'n nuwe adres kies vir elke transaksie</translation>
     </message>
     <message>
@@ -334,8 +334,8 @@
         <translation>Besig met herindeksering van blokke op hardeskyf...</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation>Stuur munte na 'n Bitcoin adres</translation>
+        <source>Send coins to a Cruro address</source>
+        <translation>Stuur munte na 'n Cruro adres</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -386,12 +386,12 @@
         <translation>Kodifiseer die private sleutes wat aan jou beursie gekoppel is.</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>Onderteken boodskappe met u Bitcoin adresse om u eienaarskap te bewys</translation>
+        <source>Sign messages with your Cruro addresses to prove you own them</source>
+        <translation>Onderteken boodskappe met u Cruro adresse om u eienaarskap te bewys</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Verifieër boodskappe om seker te maak dat dit met die gespesifiseerde Bitcoin adresse</translation>
+        <source>Verify messages to ensure they were signed with specified Cruro addresses</source>
+        <translation>Verifieër boodskappe om seker te maak dat dit met die gespesifiseerde Cruro adresse</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -516,8 +516,8 @@
         <translation>Inkomende transaksie</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Bitcoin can no longer continue safely and will quit.</source>
-        <translation>'N fatale fout het voorgekom. Bitcoin kan nie meer veilig voortgaan nie en sal nou toemaak.</translation>
+        <source>A fatal error occurred. Cruro can no longer continue safely and will quit.</source>
+        <translation>'N fatale fout het voorgekom. Cruro kan nie meer veilig voortgaan nie en sal nou toemaak.</translation>
     </message>
 </context>
 <context>
@@ -706,8 +706,8 @@
         <translation>Wysig stuur adres</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
-        <translation>Die ingevoerde adres "%1" is nie 'n geldige Bitcoin adres nie.</translation>
+        <source>The entered address "%1" is not a valid Cruro address.</source>
+        <translation>Die ingevoerde adres "%1" is nie 'n geldige Cruro adres nie.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -1144,8 +1144,8 @@
         <translation>Bedrag</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
-        <translation>Voer in 'n Bitcoin adres (bv. %1)</translation>
+        <source>Enter a Cruro address (e.g. %1)</source>
+        <translation>Voer in 'n Cruro adres (bv. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1567,10 +1567,10 @@ etlike ure of dae (of nooit) sal neem om te bevestig. Oorweeg om
         <translation>Versteek</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for bitcoin transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for Cruro transactions than the network can process.</source>
         <translation>Om die minimumfooi te betaal is in die haak, mits daar minder transaksievolume
 as ruimte in die blok is. Wees bewus dat de gevolg kan wees dat 'n transaksie nooit
-bevestig nie indien daar meer aanvraag vir bitcoin transaksies is as wat die netwerk kan
+bevestig nie indien daar meer aanvraag vir Cruro transaksies is as wat die netwerk kan
 verwerk.</translation>
     </message>
     <message>
@@ -1732,7 +1732,7 @@ transaksievertragingsrisiko.</translation>
         <translation>Betaal slegs die verlangde fooi van %1</translation>
     </message>
     <message>
-        <source>Warning: Invalid Bitcoin address</source>
+        <source>Warning: Invalid Cruro address</source>
         <translation>Waarskuwing: Ongeldige Bitcoinadres</translation>
     </message>
     <message>
@@ -1765,7 +1765,7 @@ Is u seker?</translation>
         <translation>Hierdie is 'n gewone betaling</translation>
     </message>
     <message>
-        <source>The Bitcoin address to send the payment to</source>
+        <source>The Cruro address to send the payment to</source>
         <translation>Die Bitcoinadres waarheen die betaling gestuur word</translation>
     </message>
     <message>

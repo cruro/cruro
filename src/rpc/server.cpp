@@ -1,5 +1,5 @@
-// Copyright (c) 2010 Satoshi Nakamoto
-// Copyright (c) 2009-2019 The Bitcoin Core developers
+// Copyright (c) 2010 crury Nakamoto
+// Copyright (c) 2009-2019 The Cruro Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -162,7 +162,7 @@ UniValue stop(const JSONRPCRequest& jsonRequest)
     if (jsonRequest.fHelp || jsonRequest.params.size() > 1)
         throw std::runtime_error(
             RPCHelpMan{"stop",
-                "\nStop Bitcoin server.",
+                "\nStop Cruro server.",
                 {},
                 RPCResults{},
                 RPCExamples{""},

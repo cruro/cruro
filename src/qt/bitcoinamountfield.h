@@ -1,4 +1,4 @@
-// Copyright (c) 2011-2018 The Bitcoin Core developers
+// Copyright (c) 2011-2018 The Cruro Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -15,7 +15,7 @@ QT_BEGIN_NAMESPACE
 class QValueComboBox;
 QT_END_NAMESPACE
 
-/** Widget for entering bitcoin amounts.
+/** Widget for entering Cruro amounts.
   */
 class BitcoinAmountField: public QWidget
 {
@@ -34,13 +34,13 @@ public:
     /** If allow empty is set to false the field will be set to the minimum allowed value if left empty. **/
     void SetAllowEmpty(bool allow);
 
-    /** Set the minimum value in satoshis **/
+    /** Set the minimum value in cruries **/
     void SetMinValue(const CAmount& value);
 
-    /** Set the maximum value in satoshis **/
+    /** Set the maximum value in cruries **/
     void SetMaxValue(const CAmount& value);
 
-    /** Set single step in satoshis **/
+    /** Set single step in cruries **/
     void setSingleStep(const CAmount& step);
 
     /** Make read-only **/

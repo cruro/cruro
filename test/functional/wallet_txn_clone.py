@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Copyright (c) 2014-2019 The Bitcoin Core developers
+# Copyright (c) 2014-2019 The Cruro Core developers
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 """Test the wallet accounts properly when there are cloned transactions with malleated scriptsigs."""
@@ -134,7 +134,7 @@ class TxnMallTest(BitcoinTestFramework):
         assert_equal(tx1_clone["confirmations"], 2)
         assert_equal(tx2["confirmations"], 1)
 
-        # Check node0's total balance; should be same as before the clone, + 100 BTC for 2 matured,
+        # Check node0's total balance; should be same as before the clone, + 100 CRC for 2 matured,
         # less possible orphaned matured subsidy
         expected += 100
         if (self.options.mine_block):

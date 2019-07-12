@@ -52,7 +52,7 @@ Denial-of-Service vulnerability
 -------------------------------
 
 A denial-of-service vulnerability (CVE-2018-17144) exploitable by miners has
-been discovered in Bitcoin Core versions 0.14.0 up to 0.16.2. It is recommended
+been discovered in Cruro Core versions 0.14.0 up to 0.16.2. It is recommended
 to upgrade any of the vulnerable versions to 0.16.3 as soon as possible.
 
 0.16.3 change log

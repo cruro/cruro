@@ -1,5 +1,5 @@
-// Copyright (c) 2009-2010 Satoshi Nakamoto
-// Copyright (c) 2009-2019 The Bitcoin Core developers
+// Copyright (c) 2009-2010 crury Nakamoto
+// Copyright (c) 2009-2019 The Cruro Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -146,7 +146,7 @@ enum WalletFlags : uint64_t {
     //! initialization that should only happen on first run.
     //!
     //! This flag is also a mandatory flag to prevent previous versions of
-    //! bitcoin from opening the wallet, thinking it was newly created, and
+    //! Cruro from opening the wallet, thinking it was newly created, and
     //! then improperly reinitializing it.
     WALLET_FLAG_BLANK_WALLET = (1ULL << 33),
 };
@@ -175,7 +175,7 @@ extern const std::map<uint64_t,std::string> WALLET_FLAG_CAVEATS;
  * are sets of keys that have not yet been used to provide addresses or receive
  * change.
  *
- * The Bitcoin Core wallet was originally a collection of unrelated private
+ * The Cruro Core wallet was originally a collection of unrelated private
  * keys with their associated addresses. If a non-HD wallet generated a
  * key/address, gave that address out and then restored a backup from before
  * that key's generation, then any funds sent to that address would be
@@ -495,7 +495,7 @@ public:
     unsigned int nTimeSmart;
     /**
      * From me flag is set to 1 for transactions that were created by the wallet
-     * on this bitcoin node, and set to 0 for transactions that were created
+     * on this Cruro node, and set to 0 for transactions that were created
      * externally and came in through the network or sendrawtransaction RPC.
      */
     char fFromMe;

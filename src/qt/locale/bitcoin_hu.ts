@@ -66,12 +66,12 @@
         <translation>Fogadási cím</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Ezek a Bitcoin címeid kifizetések küldéséhez. Mindíg ellenőrizd az összeget és a fogadó címet mielőtt coinokat küldenél.</translation>
+        <source>These are your Cruro addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Ezek a Cruro címeid kifizetések küldéséhez. Mindíg ellenőrizd az összeget és a fogadó címet mielőtt coinokat küldenél.</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Ezek a Bitcoin címeid kifizetések fogadásához. Ajánlott új címet használni minden új fogadáshoz.</translation>
+        <source>These are your Cruro addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Ezek a Cruro címeid kifizetések fogadásához. Ajánlott új címet használni minden új fogadáshoz.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -343,7 +343,7 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>Lemezen lévő blokkok újraindexelése...</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
+        <source>Send coins to a Cruro address</source>
         <translation>Bitcoin küldése megadott címre</translation>
     </message>
     <message>
@@ -395,11 +395,11 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>A tárcádhoz tartozó privát kulcsok titkosítása</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
+        <source>Sign messages with your Cruro addresses to prove you own them</source>
         <translation>Üzenetek aláírása a Bitcoin-címmeiddel, amivel bizonyítod, hogy a cím a sajátod</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
+        <source>Verify messages to ensure they were signed with specified Cruro addresses</source>
         <translation>Üzenetek ellenőrzése, hogy valóban a megjelölt Bitcoin-címekkel vannak-e aláírva</translation>
     </message>
     <message>
@@ -439,8 +439,8 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>Paran&amp;cssor kapcsolók</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>%n aktív kapcsolat a Bitcoin hálózathoz</numerusform><numerusform>%n aktív kapcsolat a Bitcoin hálózathoz</numerusform></translation>
+        <source>%n active connection(s) to Cruro network</source>
+        <translation><numerusform>%n aktív kapcsolat a Cruro hálózathoz</numerusform><numerusform>%n aktív kapcsolat a Cruro hálózathoz</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -483,8 +483,8 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>Naprakész</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
-        <translation>A %1 súgó megjelenítése a Bitcoin lehetséges parancssori kapcsolóinak listájával</translation>
+        <source>Show the %1 help message to get a list with possible Cruro command-line options</source>
+        <translation>A %1 súgó megjelenítése a Cruro lehetséges parancssori kapcsolóinak listájával</translation>
     </message>
     <message>
         <source>%1 client</source>
@@ -553,8 +553,8 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>Tárca &lt;b&gt;kódolva&lt;/b&gt; és jelenleg &lt;b&gt;zárva&lt;/b&gt;.</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Bitcoin can no longer continue safely and will quit.</source>
-        <translation>Végzetes hiba történt. A Bitcoin működése nem biztonságos és hamarosan leáll.</translation>
+        <source>A fatal error occurred. Cruro can no longer continue safely and will quit.</source>
+        <translation>Végzetes hiba történt. A Cruro működése nem biztonságos és hamarosan leáll.</translation>
     </message>
 </context>
 <context>
@@ -743,7 +743,7 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>Küldő cím szerkesztése</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
+        <source>The entered address "%1" is not a valid Cruro address.</source>
         <translation>A megadott "%1" cím nem egy érvényes Bitcoin-cím.</translation>
     </message>
     <message>
@@ -840,8 +840,8 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>Hozzávetőlegesen %1 GB adatot fogunk ebben a könyvtárban tárolni.</translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Bitcoin block chain.</source>
-        <translation>%1 le fog töltődni és a Bitcoin blokk lánc egy másolatát fogja tárolni.</translation>
+        <source>%1 will download and store a copy of the Cruro block chain.</source>
+        <translation>%1 le fog töltődni és a Cruro blokk lánc egy másolatát fogja tárolni.</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>
@@ -867,8 +867,8 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>Űrlap</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the bitcoin network, as detailed below.</source>
-        <translation>A legutóbbi tranzakciók még lehet, hogy nem látszanak, ezért előfordulhat, hogy a pénztárca egyenlege nem a valós állapotot mutatja. Ha a pénztárca befejezte a szinkronizációt a bitcoin hálózattal, utána már az aktuális egyenleget fogja mutatni, amint alant részletesen látszik.</translation>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the Cruro network, as detailed below.</source>
+        <translation>A legutóbbi tranzakciók még lehet, hogy nem látszanak, ezért előfordulhat, hogy a pénztárca egyenlege nem a valós állapotot mutatja. Ha a pénztárca befejezte a szinkronizációt a Cruro hálózattal, utána már az aktuális egyenleget fogja mutatni, amint alant részletesen látszik.</translation>
     </message>
     <message>
         <source>Attempting to spend bitcoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
@@ -1033,7 +1033,7 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>&amp;Költése a a jóváhagyatlan visszajárónak</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the Cruro client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>A Bitcoin-kliens portjának automatikus megnyitása a routeren. Ez csak akkor működik, ha a routered támogatja az UPnP-t és az engedélyezve is van rajta.</translation>
     </message>
     <message>
@@ -1049,8 +1049,8 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>Bejövő kapcsolatok engedélyezése.</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
-        <translation>Csatlakozás a Bitcoin hálózatához SOCKS5 proxyn keresztül</translation>
+        <source>Connect to the Cruro network through a SOCKS5 proxy.</source>
+        <translation>Csatlakozás a Cruro hálózatához SOCKS5 proxyn keresztül</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1085,8 +1085,8 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Csatlakozás a Bitcoin hálózathoz külön SOCKS5 proxy használatával a Tor rejtett szolgáltatásainak eléréséhez.</translation>
+        <source>Connect to the Cruro network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <translation>Csatlakozás a Cruro hálózathoz külön SOCKS5 proxy használatával a Tor rejtett szolgáltatásainak eléréséhez.</translation>
     </message>
     <message>
         <source>&amp;Window</source>
@@ -1192,8 +1192,8 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>Űrlap</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>A kijelzett információ lehet, hogy elavult. A pénztárcája automatikusan szinkronizálja magát a Bitcoin hálózattal miután a kapcsolat létrejön, de ez e folyamat még nem fejeződött be.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Cruro network after a connection is established, but this process has not completed yet.</source>
+        <translation>A kijelzett információ lehet, hogy elavult. A pénztárcája automatikusan szinkronizálja magát a Cruro hálózattal miután a kapcsolat létrejön, de ez e folyamat még nem fejeződött be.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1268,7 +1268,7 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
     </message>
     <message>
         <source>Cannot start bitcoin: click-to-pay handler</source>
-        <translation>A bitcoin nem tud elindulni: click-to-pay kezelő</translation>
+        <translation>A Cruro nem tud elindulni: click-to-pay kezelő</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1279,8 +1279,8 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>Érvénytelen fizetési cím %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
-        <translation>Nem sikerült az URI elemzése! Ezt okozhatja érvénytelen Bitcoin cím, vagy rossz URI paraméterezés.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Cruro address or malformed URI parameters.</source>
+        <translation>Nem sikerült az URI elemzése! Ezt okozhatja érvénytelen Cruro cím, vagy rossz URI paraméterezés.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1377,8 +1377,8 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>Összeg</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
-        <translation>Ad meg egy Bitcoin címet (pl: %1)</translation>
+        <source>Enter a Cruro address (e.g. %1)</source>
+        <translation>Ad meg egy Cruro címet (pl: %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1789,8 +1789,8 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>&amp;Üzenet:</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
-        <translation>Egy opcionális üzenet csatolása a fizetési kérelemhez, amely megjelenik a kérelem megnyitásakor. Megjegyzés: Az üzenet nem lesz elküldve a fizetséggel a Bitcoin hálózaton keresztül.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Cruro network.</source>
+        <translation>Egy opcionális üzenet csatolása a fizetési kérelemhez, amely megjelenik a kérelem megnyitásakor. Megjegyzés: Az üzenet nem lesz elküldve a fizetséggel a Cruro hálózaton keresztül.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -2034,7 +2034,7 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>Elrejtés</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for bitcoin transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for Cruro transactions than the network can process.</source>
         <translation>Alacsony díj is megfelelő, ha nincs több tranzakció mint amennyi hely a blokkokban. Figyelem! Ha a hálózat túlterhelt, lehetséges, hogy a tranzakció nem lesz megerősítve.</translation>
     </message>
     <message>
@@ -2178,8 +2178,8 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>Csak a szükséges %1 díj fizetése</translation>
     </message>
     <message>
-        <source>Warning: Invalid Bitcoin address</source>
-        <translation>Figyelmeztetés: Érvénytelen Bitcoin cím</translation>
+        <source>Warning: Invalid Cruro address</source>
+        <translation>Figyelmeztetés: Érvénytelen Cruro cím</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2221,8 +2221,8 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>Ez normál fizetés.</translation>
     </message>
     <message>
-        <source>The Bitcoin address to send the payment to</source>
-        <translation>Erre a Bitcoin címre küldje az összeget</translation>
+        <source>The Cruro address to send the payment to</source>
+        <translation>Erre a Cruro címre küldje az összeget</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2306,7 +2306,7 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>Üzenet aláírása...</translation>
     </message>
     <message>
-        <source>The Bitcoin address to sign the message with</source>
+        <source>The Cruro address to sign the message with</source>
         <translation>Bitcoin cím, amivel alá kívánja írni az üzenetet</translation>
     </message>
     <message>
@@ -2338,7 +2338,7 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>A jelenleg kiválasztott aláírás másolása a rendszer-vágólapra</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
+        <source>Sign the message to prove you own this Cruro address</source>
         <translation>Üzenet </translation>
     </message>
     <message>
@@ -2354,12 +2354,12 @@ Kérem a kulcsmondatban használjon &lt;b&gt; tíz vagy több véletlenszerű ka
         <translation>Üzenet ellenőrzése</translation>
     </message>
     <message>
-        <source>The Bitcoin address the message was signed with</source>
+        <source>The Cruro address the message was signed with</source>
         <translation>Bitcoin cím, amivel aláírta az üzenetet</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation>Ellenőrizze az üzenetet, hogy valóban a megjelölt Bitcoin címmel van-e aláírva</translation>
+        <source>Verify the message to ensure it was signed with the specified Cruro address</source>
+        <translation>Ellenőrizze az üzenetet, hogy valóban a megjelölt Cruro címmel van-e aláírva</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>

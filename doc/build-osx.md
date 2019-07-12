@@ -42,17 +42,17 @@ from the root of the repository.
 
 **Note**: You only need Berkeley DB if the wallet is enabled (see [*Disable-wallet mode*](/doc/build-osx.md#disable-wallet-mode)).
 
-## Build Bitcoin Core
+## Build Cruro Core
 
-1. Clone the Bitcoin Core source code:
+1. Clone the Cruro Core source code:
     ```shell
     git clone https://github.com/bitcoin/bitcoin
     cd bitcoin
     ```
 
-2.  Build Bitcoin Core:
+2.  Build Cruro Core:
 
-    Configure and build the headless Bitcoin Core binaries as well as the GUI (if Qt is found).
+    Configure and build the headless Cruro Core binaries as well as the GUI (if Qt is found).
 
     You can disable the GUI build by passing `--without-gui` to configure.
     ```shell
@@ -72,7 +72,7 @@ from the root of the repository.
     ```
 
 ## `disable-wallet` mode
-When the intention is to run only a P2P node without a wallet, Bitcoin Core may be
+When the intention is to run only a P2P node without a wallet, Cruro Core may be
 compiled in `disable-wallet` mode with:
 ```shell
 ./configure --disable-wallet
@@ -104,7 +104,7 @@ tail -f $HOME/Library/Application\ Support/Bitcoin/debug.log
 
 ## Other commands:
 ```shell
-./src/bitcoind -daemon      # Starts the bitcoin daemon.
+./src/bitcoind -daemon      # Starts the Cruro daemon.
 ./src/bitcoin-cli --help    # Outputs a list of command-line options.
 ./src/bitcoin-cli help      # Outputs a list of RPC commands when the daemon is running.
 ```

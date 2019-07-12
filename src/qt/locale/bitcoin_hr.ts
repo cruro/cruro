@@ -66,12 +66,12 @@
         <translation>Adrese primatelja</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Ovo su vaše Bitcoin adrese za slanje novca. Uvijek provjerite iznos i adresu primatelja prije slanja novca.</translation>
+        <source>These are your Cruro addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Ovo su vaše Cruro adrese za slanje novca. Uvijek provjerite iznos i adresu primatelja prije slanja novca.</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Ovo su vaše Bitcoin adrese za primanje novca. Preporučeno je da koristite novu primateljsku adresu za svaku transakciju.</translation>
+        <source>These are your Cruro addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Ovo su vaše Cruro adrese za primanje novca. Preporučeno je da koristite novu primateljsku adresu za svaku transakciju.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -358,8 +358,8 @@
         <translation>Proxy je &lt;b&gt;uključen&lt;/b&gt;: %1</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation>Pošaljite novac na Bitcoin adresu</translation>
+        <source>Send coins to a Cruro address</source>
+        <translation>Pošaljite novac na Cruro adresu</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -410,12 +410,12 @@
         <translation>Šifrirajte privatne ključeve u novčaniku</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>Poruku potpišemo s Bitcoin adresom, kako bi dokazali vlasništvo nad tom adresom</translation>
+        <source>Sign messages with your Cruro addresses to prove you own them</source>
+        <translation>Poruku potpišemo s Cruro adresom, kako bi dokazali vlasništvo nad tom adresom</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Provjerite poruku da je potpisana s navedenom Bitcoin adresom</translation>
+        <source>Verify messages to ensure they were signed with specified Cruro addresses</source>
+        <translation>Provjerite poruku da je potpisana s navedenom Cruro adresom</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -454,8 +454,8 @@
         <translation>Opcije &amp;naredbene linije</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>%n aktivna veza na Bitcoin mrežu</numerusform><numerusform>%n aktivnih veza na Bitcoin mrežu</numerusform><numerusform>%n aktivnih veza na Bitcoin mrežu</numerusform></translation>
+        <source>%n active connection(s) to Cruro network</source>
+        <translation><numerusform>%n aktivna veza na Cruro mrežu</numerusform><numerusform>%n aktivnih veza na Cruro mrežu</numerusform><numerusform>%n aktivnih veza na Cruro mrežu</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -498,7 +498,7 @@
         <translation>Ažurno</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
+        <source>Show the %1 help message to get a list with possible Cruro command-line options</source>
         <translation>Prikažite pomoć programa %1 kako biste ispisali moguće opcije preko terminala</translation>
     </message>
     <message>
@@ -573,8 +573,8 @@
         <translation>Novčanik je &lt;b&gt;šifriran&lt;/b&gt; i trenutno &lt;b&gt;zaključan&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Bitcoin can no longer continue safely and will quit.</source>
-        <translation>Dogodila se kobna greška. Bitcoin ne može više sigurno nastaviti te će se zatvoriti.</translation>
+        <source>A fatal error occurred. Cruro can no longer continue safely and will quit.</source>
+        <translation>Dogodila se kobna greška. Cruro ne može više sigurno nastaviti te će se zatvoriti.</translation>
     </message>
 </context>
 <context>
@@ -763,8 +763,8 @@
         <translation>Uredi adresu za slanje</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
-        <translation>Upisana adresa "%1" nije valjana Bitcoin adresa.</translation>
+        <source>The entered address "%1" is not a valid Cruro address.</source>
+        <translation>Upisana adresa "%1" nije valjana Cruro adresa.</translation>
     </message>
     <message>
         <source>Address "%1" already exists as a receiving address with label "%2" and so cannot be added as a sending address.</source>
@@ -872,7 +872,7 @@
         <translation>Otprilike %1 GB podataka bit će spremljeno u ovoj mapi.</translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Bitcoin block chain.</source>
+        <source>%1 will download and store a copy of the Cruro block chain.</source>
         <translation>%1 preuzet će i pohraniti kopiju Bitcoinovog lanca blokova.</translation>
     </message>
     <message>
@@ -899,7 +899,7 @@
         <translation>Oblik</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the bitcoin network, as detailed below.</source>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the Cruro network, as detailed below.</source>
         <translation>Nedavne transakcije možda još nisu vidljive pa vam stanje novčanika može biti netočno. Ove informacije bit će točne nakon što vaš novčanik dovrši sinkronizaciju s Bitcoinovom mrežom, kako je opisano dolje.</translation>
     </message>
     <message>
@@ -1089,8 +1089,8 @@
         <translation>&amp;Trošenje nepotvrđenih vraćenih iznosa</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatski otvori port Bitcoin klijenta na ruteru. To radi samo ako ruter podržava UPnP i ako je omogućen.</translation>
+        <source>Automatically open the Cruro client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatski otvori port Cruro klijenta na ruteru. To radi samo ako ruter podržava UPnP i ako je omogućen.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1105,8 +1105,8 @@
         <translation>Dozvolite dolazeće veze</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
-        <translation>Spojite se na Bitcoin mrežu kroz SOCKS5 proxy.</translation>
+        <source>Connect to the Cruro network through a SOCKS5 proxy.</source>
+        <translation>Spojite se na Cruro mrežu kroz SOCKS5 proxy.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1141,8 +1141,8 @@
         <translation>Tora</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Spojite se na Bitcoin mrežu kroz zaseban SOCKS5 proxy za povezivanje na Tor.</translation>
+        <source>Connect to the Cruro network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <translation>Spojite se na Cruro mrežu kroz zaseban SOCKS5 proxy za povezivanje na Tor.</translation>
     </message>
     <message>
         <source>&amp;Window</source>
@@ -1248,8 +1248,8 @@
         <translation>Oblik</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Prikazani podatci mogu biti zastarjeli. Vaš novčanik se automatski sinkronizira s Bitcoin mrežom kada je veza uspostavljena, ali taj proces još nije završen.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Cruro network after a connection is established, but this process has not completed yet.</source>
+        <translation>Prikazani podatci mogu biti zastarjeli. Vaš novčanik se automatski sinkronizira s Cruro mrežom kada je veza uspostavljena, ali taj proces još nije završen.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1343,8 +1343,8 @@
         <translation>Nevažeća adresa za plaćanje %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
-        <translation>Ne može se parsirati URI! Uzrok tomu može biti nevažeća Bitcoin adresa ili neispravni parametri kod URI-a.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Cruro address or malformed URI parameters.</source>
+        <translation>Ne može se parsirati URI! Uzrok tomu može biti nevažeća Cruro adresa ili neispravni parametri kod URI-a.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1445,8 +1445,8 @@
         <translation>Iznos</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
-        <translation>Unesite Bitcoin adresu (npr. %1)</translation>
+        <source>Enter a Cruro address (e.g. %1)</source>
+        <translation>Unesite Cruro adresu (npr. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1889,8 +1889,8 @@
         <translation>&amp;Poruka:</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
-        <translation>Opcionalna poruka koja se može dodati kao privitak zahtjevu za plaćanje. Bit će prikazana kad je zahtjev otvoren. Napomena: Ova poruka neće biti poslana zajedno s uplatom preko Bitcoin mreže.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Cruro network.</source>
+        <translation>Opcionalna poruka koja se može dodati kao privitak zahtjevu za plaćanje. Bit će prikazana kad je zahtjev otvoren. Napomena: Ova poruka neće biti poslana zajedno s uplatom preko Cruro mreže.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -2128,7 +2128,7 @@
     <message>
         <source>Specify a custom fee per kB (1,000 bytes) of the transaction's virtual size.
 
-Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis per kB" for a transaction size of 500 bytes (half of 1 kB) would ultimately yield a fee of only 50 satoshis.</source>
+Note:  Since the fee is calculated on a per-byte basis, a fee of "100 cruries per kB" for a transaction size of 500 bytes (half of 1 kB) would ultimately yield a fee of only 50 satoshis.</source>
         <translation>Zadajte prilagođeu naknadu po kB (1000 bajtova) virtualne veličine transakcije.
 
 Napomena: Budući da se naknada računa po bajtu, naknada od "100 satošija po kB" za transakciju veličine 500 bajtova (polovica od 1 kB) rezultirala bi ultimativno naknadom od samo 50 satošija.</translation>
@@ -2142,8 +2142,8 @@ Napomena: Budući da se naknada računa po bajtu, naknada od "100 satošija po k
         <translation>Sakrijte</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for bitcoin transactions than the network can process.</source>
-        <translation>Plaćanje minimalnu naknadu je dovoljno ukoliko je volumen transakcija manja od prostora u blokovima. Budite svjesni da ovo može završiti tako da se transakcija nikad ne potvrdi ako je potražnja za Bitcoin transakcijama veća nego što mreža može procesirati.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for Cruro transactions than the network can process.</source>
+        <translation>Plaćanje minimalnu naknadu je dovoljno ukoliko je volumen transakcija manja od prostora u blokovima. Budite svjesni da ovo može završiti tako da se transakcija nikad ne potvrdi ako je potražnja za Cruro transakcijama veća nego što mreža može procesirati.</translation>
     </message>
     <message>
         <source>(read the tooltip)</source>
@@ -2322,8 +2322,8 @@ Napomena: Budući da se naknada računa po bajtu, naknada od "100 satošija po k
         <translation><numerusform>Procijenjeno je da će početi potvrđivanje unutar %n bloka.</numerusform><numerusform>Procijenjeno je da će početi potvrđivanje unutar %n bloka.</numerusform><numerusform>Procijenjeno je da će početi potvrđivanje unutar %n blokova.</numerusform></translation>
     </message>
     <message>
-        <source>Warning: Invalid Bitcoin address</source>
-        <translation>Upozorenje: Nevažeća Bitcoin adresa</translation>
+        <source>Warning: Invalid Cruro address</source>
+        <translation>Upozorenje: Nevažeća Cruro adresa</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2365,7 +2365,7 @@ Napomena: Budući da se naknada računa po bajtu, naknada od "100 satošija po k
         <translation>Ovo je normalna uplata.</translation>
     </message>
     <message>
-        <source>The Bitcoin address to send the payment to</source>
+        <source>The Cruro address to send the payment to</source>
         <translation>Bitcoin adresa na koju ćete poslati uplatu</translation>
     </message>
     <message>
@@ -2413,8 +2413,8 @@ Napomena: Budući da se naknada računa po bajtu, naknada od "100 satošija po k
         <translation>Unesite oznaku za ovu adresu kako bi ju dodali u vaš adresar</translation>
     </message>
     <message>
-        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
-        <translation>Poruka koja je dodana uplati: URI koji će biti spremljen s transakcijom za referencu. Napomena: Ova poruka neće biti poslana preko Bitcoin mreže.</translation>
+        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Cruro network.</source>
+        <translation>Poruka koja je dodana uplati: URI koji će biti spremljen s transakcijom za referencu. Napomena: Ova poruka neće biti poslana preko Cruro mreže.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2462,7 +2462,7 @@ Napomena: Budući da se naknada računa po bajtu, naknada od "100 satošija po k
         <translation>Možete potpisati poruke/dogovore svojim adresama kako biste dokazali da možete pristupiti bitcoinima poslanim na te adrese. Budite oprezni da ne potpisujte ništa nejasno ili nasumično, jer napadi phishingom vas mogu prevariti da prepišite svoj identitet njima. Potpisujte samo detaljno objašnjene izjave s kojima se slažete.</translation>
     </message>
     <message>
-        <source>The Bitcoin address to sign the message with</source>
+        <source>The Cruro address to sign the message with</source>
         <translation>Bitcoin adresa pomoću koje ćete potpisati poruku</translation>
     </message>
     <message>
@@ -2494,8 +2494,8 @@ Napomena: Budući da se naknada računa po bajtu, naknada od "100 satošija po k
         <translation>Kopirajte trenutni potpis u međuspremnik</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation>Potpišite poruku kako biste dokazali da posjedujete ovu Bitcoin adresu</translation>
+        <source>Sign the message to prove you own this Cruro address</source>
+        <translation>Potpišite poruku kako biste dokazali da posjedujete ovu Cruro adresu</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2518,12 +2518,12 @@ Napomena: Budući da se naknada računa po bajtu, naknada od "100 satošija po k
         <translation>Unesite primateljevu adresu, poruku (provjerite da kopirate prekide crta, razmake, tabove, itd. točno) i potpis ispod da provjerite poruku. Pazite da ne pridodate veće značenje potpisu nego što je sadržano u samoj poruci kako biste izbjegli napad posrednika (MITM attack). Primijetite da ovo samo dokazuje da stranka koja potpisuje prima na adresu. Ne može dokažati da je neka stranka poslala transakciju!</translation>
     </message>
     <message>
-        <source>The Bitcoin address the message was signed with</source>
+        <source>The Cruro address the message was signed with</source>
         <translation>Bitcoin adresa kojom je poruka potpisana</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation>Provjerite poruku da budete sigurni da je potpisana zadanom Bitcoin adresom</translation>
+        <source>Verify the message to ensure it was signed with the specified Cruro address</source>
+        <translation>Provjerite poruku da budete sigurni da je potpisana zadanom Cruro adresom</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>

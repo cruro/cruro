@@ -1,11 +1,11 @@
-# Copyright (c) 2013-2016 The Bitcoin Core developers
+# Copyright (c) 2013-2016 The Cruro Core developers
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 bin_PROGRAMS += qt/bitcoin-qt
 EXTRA_LIBRARIES += qt/libbitcoinqt.a
 
-# bitcoin qt core #
+# Cruro qt core #
 QT_TS = \
   qt/locale/bitcoin_af.ts \
   qt/locale/bitcoin_af_ZA.ts \
@@ -462,7 +462,7 @@ $(QT_QRC_LOCALE_CPP): $(QT_QRC_LOCALE) $(QT_QM)
 
 $(QT_QRC_CPP): $(QT_QRC) $(QT_FORMS_H) $(RES_ICONS) $(RES_IMAGES) $(RES_MOVIES) $(PROTOBUF_H)
 	@test -f $(RCC)
-	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(RCC) -name bitcoin $< | \
+	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(RCC) -name Cruro $< | \
 	  $(SED) -e '/^\*\*.*Created:/d' -e '/^\*\*.*by:/d' > $@
 
 CLEAN_QT = $(nodist_qt_libbitcoinqt_a_SOURCES) $(QT_QM) $(QT_FORMS_H) qt/*.gcda qt/*.gcno qt/temp_bitcoin_locale.qrc

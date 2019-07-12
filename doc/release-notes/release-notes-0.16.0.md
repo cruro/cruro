@@ -112,7 +112,7 @@ becomes unavailable during operation, funds may be lost.
 
 Build: Minimum GCC bumped to 4.8.x
 ------------------------------------
-The minimum version of the GCC compiler required to compile Bitcoin Core is now 4.8. No effort will be
+The minimum version of the GCC compiler required to compile Cruro Core is now 4.8. No effort will be
 made to support older versions of GCC. See discussion in issue #11732 for more information.
 The minimum version for the Clang compiler is still 3.3. Other minimum dependency versions can be found in `doc/dependencies.md` in the repository.
 

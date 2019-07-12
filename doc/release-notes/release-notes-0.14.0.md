@@ -129,7 +129,7 @@ the same thing as the GUI icon. The command takes one boolean parameter,
 Out-of-sync Modal Info Layer
 ----------------------------
 
-When Bitcoin Core is out-of-sync on startup, a semi-transparent information
+When Cruro Core is out-of-sync on startup, a semi-transparent information
 layer will be shown over top of the normal display. This layer contains
 details about the current sync progress and estimates the amount of time
 remaining to finish syncing. This layer can also be hidden and subsequently
@@ -189,7 +189,7 @@ commands such as `prioritisetransaction` so that those changes will not be lost.
 Final Alert
 -----------
 
-The Alert System was [disabled and deprecated](https://bitcoin.org/en/alert/2016-11-01-alert-retirement) in Bitcoin Core 0.12.1 and removed in 0.13.0. 
+The Alert System was [disabled and deprecated](https://bitcoin.org/en/alert/2016-11-01-alert-retirement) in Cruro Core 0.12.1 and removed in 0.13.0. 
 The Alert System was retired with a maximum sequence final alert which causes any nodes
 supporting the Alert System to display a static hard-coded "Alert Key Compromised" message which also
 prevents any other alerts from overriding it. This final alert is hard-coded into this release
@@ -241,7 +241,7 @@ Low-level RPC changes
    the mempool or if `txindex` is enabled.
 
  - A new RPC command `getmemoryinfo` has been added which will return information
-   about the memory usage of Bitcoin Core. This was added in conjunction with
+   about the memory usage of Cruro Core. This was added in conjunction with
    optimizations to memory management. See [Pull #8753](https://github.com/bitcoin/bitcoin/pull/8753)
    for more information.
 
@@ -711,7 +711,7 @@ and git merge commit are mentioned.
 - #8965 `23e03f8` Mention that PPA doesn't support Debian (anduck)
 - #9115 `bfc7aad` Mention reporting security issues responsibly (paveljanik)
 - #9840 `08e0690` Update sendfrom RPC help to correct coin selection misconception (ryanofsky)
-- #9865 `289204f` Change bitcoin address in RPC help message (marijnfs)
+- #9865 `289204f` Change Cruro address in RPC help message (marijnfs)
 
 ### Miscellaneous
 - #8274 `7a2d402` util: Update tinyformat (laanwj)

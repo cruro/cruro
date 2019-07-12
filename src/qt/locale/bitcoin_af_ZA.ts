@@ -62,11 +62,11 @@
         <translation>Ontvang adresse</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Cruro addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>Dit is jou Bitcoin-adresse vir die stuur van betalings. Kontroleer altyd die bedrag en die ontvangsadres voordat u munte stuur.</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your Cruro addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>Dit is jou Bitcoin-adresse vir die stuur van betalings. Kontroleer altyd die bedrag en die ontvangsadres voordat jy munte stuur.</translation>
     </message>
     <message>
@@ -342,8 +342,8 @@
         <translation>Herindekseer blokke op skyf...</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation>Stuur muntstukke na 'n Bitcoin adres</translation>
+        <source>Send coins to a Cruro address</source>
+        <translation>Stuur muntstukke na 'n Cruro adres</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -394,12 +394,12 @@
         <translation>Versleutel die private sleutels wat aan u beursie behoort</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>Teken boodskappe met u Bitcoin adresse om te bewys dat u hul besit</translation>
+        <source>Sign messages with your Cruro addresses to prove you own them</source>
+        <translation>Teken boodskappe met u Cruro adresse om te bewys dat u hul besit</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Bevestig boodskappe om te verseker dat hulle geteken was met gespesifiseerde Bitcoin adresse</translation>
+        <source>Verify messages to ensure they were signed with specified Cruro addresses</source>
+        <translation>Bevestig boodskappe om te verseker dat hulle geteken was met gespesifiseerde Cruro adresse</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -474,8 +474,8 @@
         <translation>Op datum</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
-        <translation>Wys die %1 hulpboodskap om 'n lys met moontlike Bitcoin bevel-lyn opsies te verkry</translation>
+        <source>Show the %1 help message to get a list with possible Cruro command-line options</source>
+        <translation>Wys die %1 hulpboodskap om 'n lys met moontlike Cruro bevel-lyn opsies te verkry</translation>
     </message>
     <message>
         <source>%1 client</source>
@@ -544,8 +544,8 @@
         <translation>Beursie is &lt;b&gt;versleutel&lt;/b&gt; en is tans &lt;b&gt;gesluit&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Bitcoin can no longer continue safely and will quit.</source>
-        <translation>'n Noodlottige fout het voorgekom. Bitcoin kan nie langer voortgaan nie en sal afsluit.</translation>
+        <source>A fatal error occurred. Cruro can no longer continue safely and will quit.</source>
+        <translation>'n Noodlottige fout het voorgekom. Cruro kan nie langer voortgaan nie en sal afsluit.</translation>
     </message>
 </context>
 <context>
@@ -734,8 +734,8 @@
         <translation>Wysig stuurende adres</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
-        <translation>Die ingeskrewe adres "%1" is nie 'n geldige Bitcoin adres nie.</translation>
+        <source>The entered address "%1" is not a valid Cruro address.</source>
+        <translation>Die ingeskrewe adres "%1" is nie 'n geldige Cruro adres nie.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>

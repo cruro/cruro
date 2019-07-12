@@ -32,7 +32,7 @@ Tests.
 
 ### bitcoingui.(h/cpp)
 
-Represents the main window of the Bitcoin UI.
+Represents the main window of the Cruro UI.
 
 ### \*model.(h/cpp)
 
@@ -60,7 +60,7 @@ Represents the view to a single wallet.
 
 * UI elements like BitcoinAmountField, which inherit from QWidget.
 * `bitcoinstrings.cpp`: automatically generated
-* `bitcoinunits.(h/cpp)`: BTC / mBTC / etc handling
+* `bitcoinunits.(h/cpp)`: CRC / mBTC / etc handling
 * `callback.h`
 * `guiconstants.h`: UI colors, app name, etc
 * `guiutil.h`: several helper functions

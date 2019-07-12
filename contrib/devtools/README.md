@@ -19,7 +19,7 @@ git diff -U0 HEAD~1.. | ./contrib/devtools/clang-format-diff.py -p1 -i -v
 copyright\_header.py
 ====================
 
-Provides utilities for managing copyright headers of `The Bitcoin Core
+Provides utilities for managing copyright headers of `The Cruro Core
 developers` in repository source files. It has three subcommands:
 
 ```
@@ -38,31 +38,31 @@ Specifying `verbose` will list the full filenames of files of each category.
 
 copyright\_header.py update \<base\_directory\> [verbose]
 ---------------------------------------------------------
-Updates all the copyright headers of `The Bitcoin Core developers` which were
+Updates all the copyright headers of `The Cruro Core developers` which were
 changed in a year more recent than is listed. For example:
 ```
-// Copyright (c) <firstYear>-<lastYear> The Bitcoin Core developers
+// Copyright (c) <firstYear>-<lastYear> The Cruro Core developers
 ```
 will be updated to:
 ```
-// Copyright (c) <firstYear>-<lastModifiedYear> The Bitcoin Core developers
+// Copyright (c) <firstYear>-<lastModifiedYear> The Cruro Core developers
 ```
 where `<lastModifiedYear>` is obtained from the `git log` history.
 
 This subcommand also handles copyright headers that have only a single year. In
 those cases:
 ```
-// Copyright (c) <year> The Bitcoin Core developers
+// Copyright (c) <year> The Cruro Core developers
 ```
 will be updated to:
 ```
-// Copyright (c) <year>-<lastModifiedYear> The Bitcoin Core developers
+// Copyright (c) <year>-<lastModifiedYear> The Cruro Core developers
 ```
 where the update is appropriate.
 
 copyright\_header.py insert \<file\>
 ------------------------------------
-Inserts a copyright header for `The Bitcoin Core developers` at the top of the
+Inserts a copyright header for `The Cruro Core developers` at the top of the
 file in either Python or C++ style as determined by the file extension. If the
 file is a Python file and it has  `#!` starting the first line, the header is
 inserted in the line below it.
@@ -72,7 +72,7 @@ The copyright dates will be set to be `<year_introduced>-<current_year>` where
 `<year_introduced>` is equal to `<current_year>`, it will be set as a single
 year rather than two hyphenated years.
 
-If the file already has a copyright for `The Bitcoin Core developers`, the
+If the file already has a copyright for `The Cruro Core developers`, the
 script will exit.
 
 gen-manpages.sh
@@ -117,7 +117,7 @@ couldn't mess with the sources.
 
 Setup
 ---------
-Configuring the github-merge tool for the bitcoin repository is done in the following way:
+Configuring the github-merge tool for the Cruro repository is done in the following way:
 
     git config githubmerge.repository bitcoin/bitcoin
     git config githubmerge.testcmd "make -j4 check" (adapt to whatever you want to use for testing)

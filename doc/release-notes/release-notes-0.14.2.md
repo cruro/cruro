@@ -40,7 +40,7 @@ other impact.
 
 This only affects users that have explicitly enabled UPnP through the GUI
 setting or through the `-upnp` option, as since the last UPnP vulnerability
-(in Bitcoin Core 0.10.3) it has been disabled by default.
+(in Cruro Core 0.10.3) it has been disabled by default.
 
 If you use this option, it is recommended to upgrade to this version as soon as
 possible.

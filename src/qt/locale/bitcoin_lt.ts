@@ -66,12 +66,12 @@
         <translation>Gavimo adresai</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Tai yra jūsų Bitcoin adresai išeinantiems mokėjimams. Visada pasitikrinkite sumą ir gavėjo adresą prieš siunčiant lėšas. </translation>
+        <source>These are your Cruro addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Tai yra jūsų Cruro adresai išeinantiems mokėjimams. Visada pasitikrinkite sumą ir gavėjo adresą prieš siunčiant lėšas. </translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Tai yra Jūsų Bitcoin adresai įeinantiems mokėjimams. Kiekvienam mokėjimui rekomenduojama naudoti naują adresą. </translation>
+        <source>These are your Cruro addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Tai yra Jūsų Cruro adresai įeinantiems mokėjimams. Kiekvienam mokėjimui rekomenduojama naudoti naują adresą. </translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -346,8 +346,8 @@
         <translation>Blokai iš naujo indeksuojami...</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation>Siųsti monetas Bitcoin adresui</translation>
+        <source>Send coins to a Cruro address</source>
+        <translation>Siųsti monetas Cruro adresui</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -398,12 +398,12 @@
         <translation>Užšifruoti privačius raktus, kurie priklauso jūsų piniginei</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>Pasirašydami žinutes su savo Bitcoin adresais įrodysite jog esate jų savininkas </translation>
+        <source>Sign messages with your Cruro addresses to prove you own them</source>
+        <translation>Pasirašydami žinutes su savo Cruro adresais įrodysite jog esate jų savininkas </translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Patikrinkite žinutę, jog įsitikintumėte, kad ją pasirašė nurodytas Bitcoin adresas</translation>
+        <source>Verify messages to ensure they were signed with specified Cruro addresses</source>
+        <translation>Patikrinkite žinutę, jog įsitikintumėte, kad ją pasirašė nurodytas Cruro adresas</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -714,8 +714,8 @@
         <translation>Piniginė</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatiškai atidaryti Bitcoin kliento prievadą maršrutizatoriuje. Tai veikia tik tada, kai jūsų maršrutizatorius palaiko UPnP ir ji įjungta.</translation>
+        <source>Automatically open the Cruro client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatiškai atidaryti Cruro kliento prievadą maršrutizatoriuje. Tai veikia tik tada, kai jūsų maršrutizatorius palaiko UPnP ir ji įjungta.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1211,7 +1211,7 @@
         <translation>Įveskite pranešimą, kurį norite pasirašyti čia</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
+        <source>Sign the message to prove you own this Cruro address</source>
         <translation>Registruotis žinute įrodymuii, kad turite šį adresą</translation>
     </message>
     <message>
@@ -1227,8 +1227,8 @@
         <translation>&amp;Patikrinti žinutę</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation>Patikrinkite žinutę, jog įsitikintumėte, kad ją pasirašė nurodytas Bitcoin adresas</translation>
+        <source>Verify the message to ensure it was signed with the specified Cruro address</source>
+        <translation>Patikrinkite žinutę, jog įsitikintumėte, kad ją pasirašė nurodytas Cruro adresas</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>

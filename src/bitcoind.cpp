@@ -1,5 +1,5 @@
-// Copyright (c) 2009-2010 Satoshi Nakamoto
-// Copyright (c) 2009-2018 The Bitcoin Core developers
+// Copyright (c) 2009-2010 crury Nakamoto
+// Copyright (c) 2009-2018 The Cruro Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -30,7 +30,7 @@ const std::function<std::string(const char*)> G_TRANSLATION_FUN = nullptr;
  * \section intro_sec Introduction
  *
  * This is the developer documentation of the reference client for an experimental new digital currency called Bitcoin,
- * which enables instant payments to anyone, anywhere in the world. Bitcoin uses peer-to-peer technology to operate
+ * which enables instant payments to anyone, anywhere in the world. Cruro uses peer-to-peer technology to operate
  * with no central authority: managing transactions and issuing money are carried out collectively by the network.
  *
  * The software is a community-driven open source project, released under the MIT license.

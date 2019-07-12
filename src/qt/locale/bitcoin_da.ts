@@ -66,11 +66,11 @@
         <translation>Modtagelsesadresser</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Cruro addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>Disse er dine Bitcoin-adresser til afsendelse af betalinger. Tjek altid beløb og modtagelsesadresse, inden du sender bitcoins.</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your Cruro addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>Dette er dine Bitcoin-adresser til modtagelse af betalinger. Det anbefales at bruge en ny modtagelsesadresse for hver transaktion.</translation>
     </message>
     <message>
@@ -189,7 +189,7 @@
     </message>
     <message>
         <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation>%1 vil nu lukke for at færdiggøre krypteringsprocessen. Husk at kryptering af din tegnebog kan ikke beskytte dine bitcoin fuldt ud mod at blive stjålet af eventuel malware, der måtte have inficeret din computer.</translation>
+        <translation>%1 vil nu lukke for at færdiggøre krypteringsprocessen. Husk at kryptering af din tegnebog kan ikke beskytte dine Cruro fuldt ud mod at blive stjålet af eventuel malware, der måtte have inficeret din computer.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -358,7 +358,7 @@
         <translation>Proxy er &lt;b&gt;aktiveret&lt;/b&gt;: %1</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
+        <source>Send coins to a Cruro address</source>
         <translation>Send bitcoins til en Bitcoin-adresse</translation>
     </message>
     <message>
@@ -410,11 +410,11 @@
         <translation>Kryptér de private nøgler, der hører til din tegnebog</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
+        <source>Sign messages with your Cruro addresses to prove you own them</source>
         <translation>Signér beskeder med dine Bitcoin-adresser for at bevise, at de tilhører dig</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
+        <source>Verify messages to ensure they were signed with specified Cruro addresses</source>
         <translation>Verificér beskeder for at sikre, at de er signeret med de angivne Bitcoin-adresser</translation>
     </message>
     <message>
@@ -454,7 +454,7 @@
         <translation>Tilvalg for &amp;kommandolinje</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network</source>
+        <source>%n active connection(s) to Cruro network</source>
         <translation><numerusform>%n aktiv forbindelse til Bitcoin-netværket</numerusform><numerusform>%n aktive forbindelser til Bitcoin-netværket</numerusform></translation>
     </message>
     <message>
@@ -498,8 +498,8 @@
         <translation>Opdateret</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
-        <translation>Vis %1 hjælpebesked for at få en liste over mulige tilvalg for Bitcoin kommandolinje</translation>
+        <source>Show the %1 help message to get a list with possible Cruro command-line options</source>
+        <translation>Vis %1 hjælpebesked for at få en liste over mulige tilvalg for Cruro kommandolinje</translation>
     </message>
     <message>
         <source>%1 client</source>
@@ -574,8 +574,8 @@
         <translation>Tegnebog er &lt;b&gt;krypteret&lt;/b&gt; og i øjeblikket &lt;b&gt;låst&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Bitcoin can no longer continue safely and will quit.</source>
-        <translation>Der opstod en fatal fejl. Bitcoin kan ikke længere fortsætte sikkert og vil afslutte.</translation>
+        <source>A fatal error occurred. Cruro can no longer continue safely and will quit.</source>
+        <translation>Der opstod en fatal fejl. Cruro kan ikke længere fortsætte sikkert og vil afslutte.</translation>
     </message>
 </context>
 <context>
@@ -714,7 +714,7 @@
     </message>
     <message>
         <source>Can vary +/- %1 satoshi(s) per input.</source>
-        <translation>Kan variere med ±%1 satoshi per input.</translation>
+        <translation>Kan variere med ±%1 crury per input.</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -764,7 +764,7 @@
         <translation>Redigér afsendelsesadresse</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
+        <source>The entered address "%1" is not a valid Cruro address.</source>
         <translation>Den indtastede adresse “%1” er ikke en gyldig Bitcoin-adresse.</translation>
     </message>
     <message>
@@ -873,7 +873,7 @@
         <translation>Omtrent %1 GB data vil blive gemt i denne mappe.</translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Bitcoin block chain.</source>
+        <source>%1 will download and store a copy of the Cruro block chain.</source>
         <translation>%1 vil downloade og gemme en kopi af Bitcoin-blokkæden.</translation>
     </message>
     <message>
@@ -904,7 +904,7 @@
         <translation>Formular</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the bitcoin network, as detailed below.</source>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the Cruro network, as detailed below.</source>
         <translation>Nylige transaktioner er måske ikke synlige endnu, og derfor kan din tegnebogs saldo være ukorrekt. Denne information vil være korrekt, når din tegnebog er færdig med at synkronisere med bitcoin-netværket, som detaljerne herunder viser.</translation>
     </message>
     <message>
@@ -1094,7 +1094,7 @@
         <translation>&amp;Brug ubekræftede byttepenge</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the Cruro client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>Åbn automatisk Bitcoin-klientens port på routeren. Dette virker kun, når din router understøtter UPnP, og UPnP er aktiveret.</translation>
     </message>
     <message>
@@ -1110,7 +1110,7 @@
         <translation>Tillad &amp;indkommende forbindelser</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
+        <source>Connect to the Cruro network through a SOCKS5 proxy.</source>
         <translation>Forbind til Bitcoin-netværket gennem en SOCKS5-proxy.</translation>
     </message>
     <message>
@@ -1146,7 +1146,7 @@
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <source>Connect to the Cruro network through a separate SOCKS5 proxy for Tor hidden services.</source>
         <translation>Forbind til Bitcoin-netværket gennem en separat SOCKS5-proxy for Tors skjulte tjenester.</translation>
     </message>
     <message>
@@ -1253,7 +1253,7 @@
         <translation>Formular</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Cruro network after a connection is established, but this process has not completed yet.</source>
         <translation>Den viste information kan være forældet. Din tegnebog synkroniserer automatisk med Bitcoin-netværket, når en forbindelse etableres, men denne proces er ikke gennemført endnu.</translation>
     </message>
     <message>
@@ -1348,7 +1348,7 @@
         <translation>Ugyldig betalingsadresse %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
+        <source>URI cannot be parsed! This can be caused by an invalid Cruro address or malformed URI parameters.</source>
         <translation>URI kan ikke tolkes! Dette kan skyldes en ugyldig Bitcoin-adresse eller forkert udformede URL-parametre.</translation>
     </message>
     <message>
@@ -1450,7 +1450,7 @@
         <translation>Beløb</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
+        <source>Enter a Cruro address (e.g. %1)</source>
         <translation>Indtast en Bitcoin-adresse (fx %1)</translation>
     </message>
     <message>
@@ -1898,7 +1898,7 @@
         <translation>&amp;Besked:</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Cruro network.</source>
         <translation>En valgfri besked, der føjes til betalingsanmodningen, og som vil vises, når anmodningen åbnes. Bemærk: Beskeden vil ikke sendes sammen med betalingen over Bitcoin-netværket.</translation>
     </message>
     <message>
@@ -2137,10 +2137,10 @@
     <message>
         <source>Specify a custom fee per kB (1,000 bytes) of the transaction's virtual size.
 
-Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis per kB" for a transaction size of 500 bytes (half of 1 kB) would ultimately yield a fee of only 50 satoshis.</source>
+Note:  Since the fee is calculated on a per-byte basis, a fee of "100 cruries per kB" for a transaction size of 500 bytes (half of 1 kB) would ultimately yield a fee of only 50 satoshis.</source>
         <translation>Specificer et brugerdefineret gebyr per kB (1.000 bytes) af transaktionens virtuelle størrelse.
 
-Note: Siden gebyret er kalkuleret på en per-byte basis, et gebyr på "100 satoshis per kB" for en transkationsstørrelse på 500 bytes (halvdelen af 1kB) ville ultimativt udbytte et gebyr på kun 50 satoshis.</translation>
+Note: Siden gebyret er kalkuleret på en per-byte basis, et gebyr på "100 cruries per kB" for en transkationsstørrelse på 500 bytes (halvdelen af 1kB) ville ultimativt udbytte et gebyr på kun 50 satoshis.</translation>
     </message>
     <message>
         <source>per kilobyte</source>
@@ -2151,7 +2151,7 @@ Note: Siden gebyret er kalkuleret på en per-byte basis, et gebyr på "100 satos
         <translation>Skjul</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for bitcoin transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for Cruro transactions than the network can process.</source>
         <translation>Det er helt fint kun at betale det minimale gebyr, så længe den totale transaktionsvolumen er mindre end den plads, der er tilgængelig i blokkene. Men vær opmærksom på, at dette kan ende ud i transaktioner, der aldrig bliver bekræftet, når der bliver større forespørgsel efter bitcoin-transaktioner, end hvad netværket kan bearbejde.</translation>
     </message>
     <message>
@@ -2331,7 +2331,7 @@ Note: Siden gebyret er kalkuleret på en per-byte basis, et gebyr på "100 satos
         <translation><numerusform>Bekræftelse estimeret til at begynde om %n blok.</numerusform><numerusform>Bekræftelse estimeret til at begynde om %n blokke.</numerusform></translation>
     </message>
     <message>
-        <source>Warning: Invalid Bitcoin address</source>
+        <source>Warning: Invalid Cruro address</source>
         <translation>Advarsel: Ugyldig Bitcoin-adresse</translation>
     </message>
     <message>
@@ -2374,7 +2374,7 @@ Note: Siden gebyret er kalkuleret på en per-byte basis, et gebyr på "100 satos
         <translation>Dette er en normal betaling.</translation>
     </message>
     <message>
-        <source>The Bitcoin address to send the payment to</source>
+        <source>The Cruro address to send the payment to</source>
         <translation>Bitcoin-adresse, som betalingen skal sendes til</translation>
     </message>
     <message>
@@ -2422,7 +2422,7 @@ Note: Siden gebyret er kalkuleret på en per-byte basis, et gebyr på "100 satos
         <translation>Indtast et mærkat for denne adresse for at føje den til listen over brugte adresser</translation>
     </message>
     <message>
-        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
+        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Cruro network.</source>
         <translation>En besked, som blev føjet til “bitcon:”-URI'en, som vil gemmes med transaktionen til din reference. Bemærk: Denne besked vil ikke blive sendt over Bitcoin-netværket.</translation>
     </message>
     <message>
@@ -2471,7 +2471,7 @@ Note: Siden gebyret er kalkuleret på en per-byte basis, et gebyr på "100 satos
         <translation>Du kan signere beskeder/aftaler med dine adresser for at bevise, at du kan modtage bitcoin, der bliver sendt til adresserne. Vær forsigtig med ikke at signere noget vagt eller tilfældigt, da eventuelle phishing-angreb kan snyde dig til at overlade din identitet til dem. Signér kun fuldt ud detaljerede udsagn, som du er enig i.</translation>
     </message>
     <message>
-        <source>The Bitcoin address to sign the message with</source>
+        <source>The Cruro address to sign the message with</source>
         <translation>Bitcoin-adresse, som beskeden skal signeres med</translation>
     </message>
     <message>
@@ -2503,7 +2503,7 @@ Note: Siden gebyret er kalkuleret på en per-byte basis, et gebyr på "100 satos
         <translation>Kopiér den nuværende signatur til systemets udklipsholder</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
+        <source>Sign the message to prove you own this Cruro address</source>
         <translation>Signér denne besked for at bevise, at Bitcoin-adressen tilhører dig</translation>
     </message>
     <message>
@@ -2527,11 +2527,11 @@ Note: Siden gebyret er kalkuleret på en per-byte basis, et gebyr på "100 satos
         <translation>Indtast modtagerens adresse, besked (vær sikker på at kopiere linjeskift, mellemrum, tabuleringer, etc. præcist) og signatur herunder for at verificere beskeden. Vær forsigtig med ikke at læse noget ud fra signaturen, som ikke står i selve beskeden, for at undgå at blive snydt af et eventuelt man-in-the-middle-angreb. Bemærk, at dette kun beviser, at den signerende person kan modtage med adressen; det kan ikke bevise hvem der har sendt en given transaktion!</translation>
     </message>
     <message>
-        <source>The Bitcoin address the message was signed with</source>
+        <source>The Cruro address the message was signed with</source>
         <translation>Bitcoin-adressen, som beskeden blev signeret med</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
+        <source>Verify the message to ensure it was signed with the specified Cruro address</source>
         <translation>Verificér beskeden for at sikre, at den er signeret med den angivne Bitcoin-adresse</translation>
     </message>
     <message>

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Copyright (c) 2018-2019 The Bitcoin Core developers
+# Copyright (c) 2018-2019 The Cruro Core developers
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 """Test the Partially Signed Transaction RPCs.
@@ -130,12 +130,12 @@ class PSBTTest(BitcoinTestFramework):
         assert_equal(walletprocesspsbt_out['complete'], True)
         self.nodes[1].sendrawtransaction(self.nodes[1].finalizepsbt(walletprocesspsbt_out['psbt'])['hex'])
 
-        # feeRate of 0.1 BTC / KB produces a total fee slightly below -maxtxfee (~0.05280000):
+        # feeRate of 0.1 CRC / KB produces a total fee slightly below -maxtxfee (~0.05280000):
         res = self.nodes[1].walletcreatefundedpsbt([{"txid":txid,"vout":p2wpkh_pos},{"txid":txid,"vout":p2sh_p2wpkh_pos},{"txid":txid,"vout":p2pkh_pos}], {self.nodes[1].getnewaddress():29.99}, 0, {"feeRate": 0.1})
         assert_greater_than(res["fee"], 0.05)
         assert_greater_than(0.06, res["fee"])
 
-        # feeRate of 10 BTC / KB produces a total fee well above -maxtxfee
+        # feeRate of 10 CRC / KB produces a total fee well above -maxtxfee
         # previously this was silently capped at -maxtxfee
         assert_raises_rpc_error(-4, "Fee exceeds maximum configured by -maxtxfee", self.nodes[1].walletcreatefundedpsbt, [{"txid":txid,"vout":p2wpkh_pos},{"txid":txid,"vout":p2sh_p2wpkh_pos},{"txid":txid,"vout":p2pkh_pos}], {self.nodes[1].getnewaddress():29.99}, 0, {"feeRate": 10})
 

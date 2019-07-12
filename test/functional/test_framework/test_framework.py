@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Copyright (c) 2014-2019 The Bitcoin Core developers
+# Copyright (c) 2014-2019 The Cruro Core developers
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 """Base class for RPC testing."""
@@ -74,9 +74,9 @@ class BitcoinTestMetaClass(type):
 
 
 class BitcoinTestFramework(metaclass=BitcoinTestMetaClass):
-    """Base class for a bitcoin test script.
+    """Base class for a Cruro test script.
 
-    Individual bitcoin test scripts should subclass this class and override the set_test_params() and run_test() methods.
+    Individual Cruro test scripts should subclass this class and override the set_test_params() and run_test() methods.
 
     Individual tests can also override the following methods to customize the test setup:
 

@@ -66,11 +66,11 @@
         <translation>Mottagaradresser</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Cruro addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>Detta är dina Bitcoin-adresser för att skicka betalningar. Kontrollera alltid summan och den mottagande adressen innan du skickar bitcoin.</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your Cruro addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>Detta är dina Bitcoin-adresser för att ta emot betalningar. Det rekommenderas att använda en ny mottagningsadress för varje transaktion.</translation>
     </message>
     <message>
@@ -359,8 +359,8 @@ Var vänlig och försök igen.</translation>
         <translation>Proxy är &lt;b&gt; aktiverad &lt;/b&gt;: %1</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation>Skicka bitcoin till en Bitcoin-adress</translation>
+        <source>Send coins to a Cruro address</source>
+        <translation>Skicka Cruro till en Bitcoin-adress</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -411,11 +411,11 @@ Var vänlig och försök igen.</translation>
         <translation>Kryptera de privata nycklar som tillhör din plånbok</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
+        <source>Sign messages with your Cruro addresses to prove you own them</source>
         <translation>Signera meddelanden med dina Bitcoin-adresser för att bevisa att du äger dem</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
+        <source>Verify messages to ensure they were signed with specified Cruro addresses</source>
         <translation>Verifiera meddelanden för att vara säker på att de signerades med angivna Bitcoin-adresser</translation>
     </message>
     <message>
@@ -455,7 +455,7 @@ Var vänlig och försök igen.</translation>
         <translation>&amp;Kommandoradsalternativ</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network</source>
+        <source>%n active connection(s) to Cruro network</source>
         <translation><numerusform>%n aktiva anslutningar till Bitcoin-nätverket.</numerusform><numerusform>%n aktiva anslutningar till Bitcoin-nätverket.</numerusform></translation>
     </message>
     <message>
@@ -499,8 +499,8 @@ Var vänlig och försök igen.</translation>
         <translation>Uppdaterad</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
-        <translation>Visa %1 hjälpmeddelande för att få en lista med möjliga Bitcoin kommandoradsalternativ.</translation>
+        <source>Show the %1 help message to get a list with possible Cruro command-line options</source>
+        <translation>Visa %1 hjälpmeddelande för att få en lista med möjliga Cruro kommandoradsalternativ.</translation>
     </message>
     <message>
         <source>%1 client</source>
@@ -575,8 +575,8 @@ Var vänlig och försök igen.</translation>
         <translation>Denna plånbok är &lt;b&gt;krypterad&lt;/b&gt; och för närvarande &lt;b&gt;låst&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Bitcoin can no longer continue safely and will quit.</source>
-        <translation>Ett kritiskt fel uppstod. Bitcoin kan inte fortsätta att köra säkert och kommer att avslutas.</translation>
+        <source>A fatal error occurred. Cruro can no longer continue safely and will quit.</source>
+        <translation>Ett kritiskt fel uppstod. Cruro kan inte fortsätta att köra säkert och kommer att avslutas.</translation>
     </message>
 </context>
 <context>
@@ -715,7 +715,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Can vary +/- %1 satoshi(s) per input.</source>
-        <translation>Kan variera +/- %1 satoshi per inmatning.</translation>
+        <translation>Kan variera +/- %1 crury per inmatning.</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -765,7 +765,7 @@ Var vänlig och försök igen.</translation>
         <translation>Redigera avsändaradress</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
+        <source>The entered address "%1" is not a valid Cruro address.</source>
         <translation>Den angivna adressen "%1" är inte en giltig Bitcoin-adress.</translation>
     </message>
     <message>
@@ -874,7 +874,7 @@ Var vänlig och försök igen.</translation>
         <translation>Ungefär %1 GB data kommer att lagras i den här katalogen.</translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Bitcoin block chain.</source>
+        <source>%1 will download and store a copy of the Cruro block chain.</source>
         <translation>%1 kommer att ladda ner och lagra en kopia av Bitcoin-blockkedjan.</translation>
     </message>
     <message>
@@ -905,12 +905,12 @@ Var vänlig och försök igen.</translation>
         <translation>Formulär</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the bitcoin network, as detailed below.</source>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the Cruro network, as detailed below.</source>
         <translation>Nyligen gjorda transaktioner visas inte korrekt och därför kan din plånboks saldo visas felaktigt. Denna information kommer att visas korrekt så snart din plånbok har synkroniserat klart med Bitcoin-nätverket enligt detaljer nedan.</translation>
     </message>
     <message>
         <source>Attempting to spend bitcoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation>Att försöka spendera bitcoin som påverkas av transaktioner som ännu inte visas kommer inte accepteras av nätverket. </translation>
+        <translation>Att försöka spendera Cruro som påverkas av transaktioner som ännu inte visas kommer inte accepteras av nätverket. </translation>
     </message>
     <message>
         <source>Number of blocks left</source>
@@ -1095,7 +1095,7 @@ Var vänlig och försök igen.</translation>
         <translation>&amp;Spendera obekräftad växel</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the Cruro client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>Öppna automatiskt Bitcoin-klientens port på routern. Detta fungerar endast om din router stödjer UPnP och det är är aktiverat.</translation>
     </message>
     <message>
@@ -1111,7 +1111,7 @@ Var vänlig och försök igen.</translation>
         <translation>Tillåt ankommande anslutningar</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
+        <source>Connect to the Cruro network through a SOCKS5 proxy.</source>
         <translation>Anslut till Bitcoin-nätverket genom en SOCKS5-proxy.</translation>
     </message>
     <message>
@@ -1147,7 +1147,7 @@ Var vänlig och försök igen.</translation>
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <source>Connect to the Cruro network through a separate SOCKS5 proxy for Tor hidden services.</source>
         <translation>Anslut till Bitcoin-nätverket genom en separat SOCKS5-proxy för dolda tjänster i Tor.</translation>
     </message>
     <message>
@@ -1254,7 +1254,7 @@ Var vänlig och försök igen.</translation>
         <translation>Formulär</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Cruro network after a connection is established, but this process has not completed yet.</source>
         <translation>Den visade informationen kan vara inaktuell. Plånboken synkroniseras automatiskt med Bitcoin-nätverket efter att anslutningen är upprättad, men denna process har inte slutförts ännu.</translation>
     </message>
     <message>
@@ -1349,7 +1349,7 @@ Var vänlig och försök igen.</translation>
         <translation>Ogiltig betalningsadress %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
+        <source>URI cannot be parsed! This can be caused by an invalid Cruro address or malformed URI parameters.</source>
         <translation>URI kan inte parsas! Detta kan orsakas av en ogiltig Bitcoin-adress eller felaktiga URI-parametrar.</translation>
     </message>
     <message>
@@ -1451,7 +1451,7 @@ Var vänlig och försök igen.</translation>
         <translation>Mängd</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
+        <source>Enter a Cruro address (e.g. %1)</source>
         <translation>Ange en Bitcoin-adress (t.ex. %1)</translation>
     </message>
     <message>
@@ -1899,7 +1899,7 @@ Var vänlig och försök igen.</translation>
         <translation>&amp;Meddelande:</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Cruro network.</source>
         <translation>Ett valfritt meddelande att bifoga betalningsbegäran, vilket visas när begäran öppnas. Obs: Meddelandet kommer inte att sändas med betalningen över Bitcoin-nätverket.</translation>
     </message>
     <message>
@@ -2138,10 +2138,10 @@ Var vänlig och försök igen.</translation>
     <message>
         <source>Specify a custom fee per kB (1,000 bytes) of the transaction's virtual size.
 
-Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis per kB" for a transaction size of 500 bytes (half of 1 kB) would ultimately yield a fee of only 50 satoshis.</source>
+Note:  Since the fee is calculated on a per-byte basis, a fee of "100 cruries per kB" for a transaction size of 500 bytes (half of 1 kB) would ultimately yield a fee of only 50 satoshis.</source>
         <translation>Ange en egen avgift per kB (1 000 bytes) av transaktionens virtuella storlek.
 
-Notera: Då avgiften beräknas per byte kommer en avgift på 50 satoshi tas ut för en transaktion på 500 bytes (en halv kB) om man valt "100 satoshi per kB" som egen avgift.</translation>
+Notera: Då avgiften beräknas per byte kommer en avgift på 50 crury tas ut för en transaktion på 500 bytes (en halv kB) om man valt "100 crury per kB" som egen avgift.</translation>
     </message>
     <message>
         <source>per kilobyte</source>
@@ -2152,7 +2152,7 @@ Notera: Då avgiften beräknas per byte kommer en avgift på 50 satoshi tas ut f
         <translation>Göm</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for bitcoin transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for Cruro transactions than the network can process.</source>
         <translation>Att bara betala den minsta avgiften är helt ok så länge transaktionsvolymen är mindre än ledigt utrymme i blocken. Men tänk på att det kan bli en en transaktion som aldrig bekräftas om efterfrågan på bitcoin-transaktioner är större än vad nätverket kan hantera.</translation>
     </message>
     <message>
@@ -2332,7 +2332,7 @@ Notera: Då avgiften beräknas per byte kommer en avgift på 50 satoshi tas ut f
         <translation><numerusform>Uppskattas till att påbörja bekräftelse inom %n block.</numerusform><numerusform>Uppskattas till att påbörja bekräftelse inom %n block.</numerusform></translation>
     </message>
     <message>
-        <source>Warning: Invalid Bitcoin address</source>
+        <source>Warning: Invalid Cruro address</source>
         <translation>Varning: Ogiltig Bitcoin-adress</translation>
     </message>
     <message>
@@ -2375,7 +2375,7 @@ Notera: Då avgiften beräknas per byte kommer en avgift på 50 satoshi tas ut f
         <translation>Detta är en normal betalning.</translation>
     </message>
     <message>
-        <source>The Bitcoin address to send the payment to</source>
+        <source>The Cruro address to send the payment to</source>
         <translation>Bitcoin-adress att sända betalning till</translation>
     </message>
     <message>
@@ -2396,7 +2396,7 @@ Notera: Då avgiften beräknas per byte kommer en avgift på 50 satoshi tas ut f
     </message>
     <message>
         <source>The fee will be deducted from the amount being sent. The recipient will receive less bitcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>Avgiften dras från beloppet som skickas. Mottagaren kommer att ta emot mindre bitcoin än du angivit i beloppsfältet. Om flera mottagare valts kommer avgiften att fördelas jämt.</translation>
+        <translation>Avgiften dras från beloppet som skickas. Mottagaren kommer att ta emot mindre Cruro än du angivit i beloppsfältet. Om flera mottagare valts kommer avgiften att fördelas jämt.</translation>
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
@@ -2423,7 +2423,7 @@ Notera: Då avgiften beräknas per byte kommer en avgift på 50 satoshi tas ut f
         <translation>Ange en etikett för denna adress för att lägga till den i listan med använda adresser</translation>
     </message>
     <message>
-        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
+        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Cruro network.</source>
         <translation>Ett meddelande som bifogades bitcoin: -URIn och som lagras med transaktionen som referens. NB: Meddelandet kommer inte att sändas över Bitcoin-nätverket.</translation>
     </message>
     <message>
@@ -2469,10 +2469,10 @@ Notera: Då avgiften beräknas per byte kommer en avgift på 50 satoshi tas ut f
     </message>
     <message>
         <source>You can sign messages/agreements with your addresses to prove you can receive bitcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>Du kan signera meddelanden/avtal med dina adresser för att bevisa att du kan ta emot bitcoin som skickats till dem. Var försiktig så du inte signerar något oklart eller konstigt, eftersom phishing-angrepp kan försöka få dig att signera över din identitet till dem. Signera endast väldetaljerade meddelanden som du godkänner.</translation>
+        <translation>Du kan signera meddelanden/avtal med dina adresser för att bevisa att du kan ta emot Cruro som skickats till dem. Var försiktig så du inte signerar något oklart eller konstigt, eftersom phishing-angrepp kan försöka få dig att signera över din identitet till dem. Signera endast väldetaljerade meddelanden som du godkänner.</translation>
     </message>
     <message>
-        <source>The Bitcoin address to sign the message with</source>
+        <source>The Cruro address to sign the message with</source>
         <translation>Bitcoin-adress att signera meddelandet med</translation>
     </message>
     <message>
@@ -2504,7 +2504,7 @@ Notera: Då avgiften beräknas per byte kommer en avgift på 50 satoshi tas ut f
         <translation>Kopiera signaturen till systemets Urklipp</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
+        <source>Sign the message to prove you own this Cruro address</source>
         <translation>Signera meddelandet för att bevisa att du äger denna Bitcoin-adress</translation>
     </message>
     <message>
@@ -2528,11 +2528,11 @@ Notera: Då avgiften beräknas per byte kommer en avgift på 50 satoshi tas ut f
         <translation>Ange mottagarens adress, meddelande (kopiera radbrytningar, mellanslag, TAB-tecken, osv. exakt) och signatur nedan, för att verifiera meddelandet. Undvik att läsa in mera information i signaturen än vad som stod i själva det signerade meddelandet, för att undvika ett man-in-the-middle-angrepp. Notera att detta endast bevisar att den signerande parten tar emot med adressen, det bevisar inte vem som skickat transaktionen!</translation>
     </message>
     <message>
-        <source>The Bitcoin address the message was signed with</source>
+        <source>The Cruro address the message was signed with</source>
         <translation>Bitcoin-adress som meddelandet signerades med</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
+        <source>Verify the message to ensure it was signed with the specified Cruro address</source>
         <translation>Verifiera meddelandet för att vara säker på att det signerades med angiven Bitcoin-adress</translation>
     </message>
     <message>

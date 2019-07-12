@@ -66,12 +66,12 @@
         <translation>Адреса получения</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Это ваши Bitcoin адреса для отправки платежа. Всегда проверяйте сумму и адрес получателя перед отправкой платежа.</translation>
+        <source>These are your Cruro addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Это ваши Cruro адреса для отправки платежа. Всегда проверяйте сумму и адрес получателя перед отправкой платежа.</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Это ваши Bitcoin адреса для получения платежей. Настоятельно рекомендуем использовать новые адреса для получения каждой транзакции.</translation>
+        <source>These are your Cruro addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Это ваши Cruro адреса для получения платежей. Настоятельно рекомендуем использовать новые адреса для получения каждой транзакции.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -354,7 +354,7 @@
         <translation>Прокси &lt;b&gt;включен&lt;/b&gt;: %1</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
+        <source>Send coins to a Cruro address</source>
         <translation>Послать средства на биткойн адрес</translation>
     </message>
     <message>
@@ -406,12 +406,12 @@
         <translation>Зашифровать приватные ключи, принадлежащие вашему кошельку</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>Подписывайте сообщения Bitcoin адресами чтобы подтвердить что это написали именно Вы</translation>
+        <source>Sign messages with your Cruro addresses to prove you own them</source>
+        <translation>Подписывайте сообщения Cruro адресами чтобы подтвердить что это написали именно Вы</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Проверяйте сообщения чтобы убедиться что они подписаны конкретными Bitcoin адресами</translation>
+        <source>Verify messages to ensure they were signed with specified Cruro addresses</source>
+        <translation>Проверяйте сообщения чтобы убедиться что они подписаны конкретными Cruro адресами</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -450,7 +450,7 @@
         <translation>Опции командной строки</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network</source>
+        <source>%n active connection(s) to Cruro network</source>
         <translation><numerusform>%n активное подключение к сети Bitcoin</numerusform><numerusform>%n активных подключения к сети Bitcoin</numerusform><numerusform>%n активных подключений к сети Bitcoin</numerusform><numerusform>%n активных подключений к сети Bitcoin</numerusform></translation>
     </message>
     <message>
@@ -554,8 +554,8 @@
         <translation>Кошелек &lt;b&gt;зашифрован&lt;/b&gt; и сейчас &lt;b&gt;заблокирован&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Bitcoin can no longer continue safely and will quit.</source>
-        <translation>Произошла критическая ошибка. Bitcoin больше не может продолжать безопасную работу и будет закрыт.</translation>
+        <source>A fatal error occurred. Cruro can no longer continue safely and will quit.</source>
+        <translation>Произошла критическая ошибка. Cruro больше не может продолжать безопасную работу и будет закрыт.</translation>
     </message>
 </context>
 <context>
@@ -828,7 +828,7 @@
         <translation>Форма</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the bitcoin network, as detailed below.</source>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the Cruro network, as detailed below.</source>
         <translation>Последние транзакции пока могут быть не видны, поэтому вы можете видеть некорректный баланс ваших кошельков. Отображаемая информация будет верна после завершения синхронизации. Прогресс синхронизации вы можете видеть ниже.</translation>
     </message>
     <message>
@@ -982,8 +982,8 @@
         <translation>Разрешить входящие соединения</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
-        <translation>Подключится к сети Bitcoin через SOCKS5 прокси.</translation>
+        <source>Connect to the Cruro network through a SOCKS5 proxy.</source>
+        <translation>Подключится к сети Cruro через SOCKS5 прокси.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1018,7 +1018,7 @@
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <source>Connect to the Cruro network through a separate SOCKS5 proxy for Tor hidden services.</source>
         <translation>Соединяться к Биткоин-сети через отдельные SOCKS5 прокси через Tor hidden services:</translation>
     </message>
     <message>
@@ -1214,7 +1214,7 @@
         <translation>Количество</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
+        <source>Enter a Cruro address (e.g. %1)</source>
         <translation>Введите биткоин-адрес (напр. %1)</translation>
     </message>
     <message>
@@ -1815,8 +1815,8 @@
         <translation>Истекло время ожидания запроса платежа</translation>
     </message>
     <message>
-        <source>Warning: Invalid Bitcoin address</source>
-        <translation>Предупреждение: Неверный Bitcoin адрес</translation>
+        <source>Warning: Invalid Cruro address</source>
+        <translation>Предупреждение: Неверный Cruro адрес</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>

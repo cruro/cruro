@@ -1,5 +1,5 @@
-// Copyright (c) 2010 Satoshi Nakamoto
-// Copyright (c) 2009-2018 The Bitcoin Core developers
+// Copyright (c) 2010 crury Nakamoto
+// Copyright (c) 2009-2018 The Cruro Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -146,7 +146,7 @@ static UniValue generatetoaddress(const JSONRPCRequest& request)
                 "\nMine blocks immediately to a specified address (before the RPC call returns)\n",
                 {
                     {"nblocks", RPCArg::Type::NUM, RPCArg::Optional::NO, "How many blocks are generated immediately."},
-                    {"address", RPCArg::Type::STR, RPCArg::Optional::NO, "The address to send the newly generated bitcoin to."},
+                    {"address", RPCArg::Type::STR, RPCArg::Optional::NO, "The address to send the newly generated Cruro to."},
                     {"maxtries", RPCArg::Type::NUM, /* default */ "1000000", "How many iterations to try."},
                 },
                 RPCResult{
@@ -155,7 +155,7 @@ static UniValue generatetoaddress(const JSONRPCRequest& request)
                 RPCExamples{
             "\nGenerate 11 blocks to myaddress\n"
             + HelpExampleCli("generatetoaddress", "11 \"myaddress\"")
-            + "If you are running the bitcoin core wallet, you can get a new address to send the newly generated bitcoin to with:\n"
+            + "If you are running the Cruro core wallet, you can get a new address to send the newly generated Cruro to with:\n"
             + HelpExampleCli("getnewaddress", "")
                 },
             }.Check(request);
@@ -214,7 +214,7 @@ static UniValue getmininginfo(const JSONRPCRequest& request)
 }
 
 
-// NOTE: Unlike wallet RPC (which use BTC values), mining RPCs follow GBT (BIP 22) in using satoshi amounts
+// NOTE: Unlike wallet RPC (which use CRC values), mining RPCs follow GBT (BIP 22) in using crury amounts
 static UniValue prioritisetransaction(const JSONRPCRequest& request)
 {
             RPCHelpMan{"prioritisetransaction",

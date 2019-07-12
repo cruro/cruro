@@ -1,6 +1,6 @@
 #include <iostream>
 
-// bitcoin includes.
+// Cruro includes.
 #include <..\src\script\bitcoinconsensus.h>
 #include <..\src\primitives\transaction.h>
 #include <..\src\script\script.h>
