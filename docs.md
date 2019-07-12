@@ -75,3 +75,6 @@ Other good resources found around the web for a good fork (but outdated) are:
             consensus.BIP65Height = 1; // BIP65 activated on regtest (Used in functional tests)
             consensus.BIP66Height = 1; // BIP66 activated on regtest (Used in functional tests)
       ```      
+- [ ] Customize validation.cpp
+Mostly validation deals with subsidy and validity checks. Subsidy defines how many coins are created when the proof of work submitted by a miner is accepted. This is the reward formula. This is where you will do your premine.
+There are some traps not to fall into here. nSubsidy is a CAmount (int64_t), it is not a float. So be sure that with your calculation, you will not have a divide by zero!
